@@ -2,7 +2,7 @@ import React from 'react';
 
 const Tech = () => (
   <div>
-    <p>Hello from Sport</p>
+    <p>Hello from Tech</p>
   </div>
 );
 
