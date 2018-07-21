@@ -2,7 +2,11 @@ import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import React from 'react';
 import * as pages from '../pages';
 
-const Logo = () => <h1>Super<span>Card</span></h1>;
+const Logo = () => (
+  <h1>
+    Super<span>Card</span>
+  </h1>
+);
 
 const Header = () => (
   <Router>
