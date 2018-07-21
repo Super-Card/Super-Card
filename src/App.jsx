@@ -4,12 +4,19 @@ import * as pages from './pages';
 
 const Home = () => <h1>Home</h1>;
 
+const Logo = () => <h1>SuperCard</h1>;
+
 const App = () => (
   <Router>
     <div>
-      <Link to="/">Home</Link> <Link to={{ pathname: '/auto' }}>Auto</Link> <Link to="/beauty">Beauty</Link>{' '}
-      <Link to="/clothes">Clothes</Link> <Link to="/tech">Tech</Link>
-      <Link to="/sport">Sport</Link> <Link to="/restaurants">Restaurants</Link>
+      <Link to="/"><Logo /></Link>
+      <Link to="/">Home</Link>
+      <Link to={{ pathname: '/auto' }}>Auto</Link>
+      <Link to="/beauty">Beauty</Link>
+      <Link to="/clothes">Clothes</Link>
+      <Link to="/tech">Tech</Link>
+      <Link to="/sport">Sport</Link>
+      <Link to="/restaurants">Restaurants</Link>
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/auto" component={pages.Auto} />
