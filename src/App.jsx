@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import React from 'react';
 import * as pages from './pages';
 
-const Home = () => <h1>Home</h1>;
-
 const Logo = () => <h1>SuperCard</h1>;
 
 const App = () => (
@@ -18,7 +16,7 @@ const App = () => (
       <Link to="/sport">Sport</Link>
       <Link to="/restaurants">Restaurants</Link>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={pages.Home} />
         <Route path="/auto" component={pages.Auto} />
         <Route path="/beauty" render={pages.Beauty} />
         <Route path="/clothes" render={pages.Clothes} />
