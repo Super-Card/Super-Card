@@ -1,5 +1,5 @@
 .locations-container {
-    background-color: red;
+    background-color: rgba(229, 229, 229, 0.2);
     display: flex;
     flex-direction: row;
 }
@@ -32,14 +32,19 @@
 
 .locations-details {
     width: auto;
-    padding: 1rem;
 }
 
 .locations-details__name {
+    margin: 1rem;
+}
 
+.locations-details__desc {
+    margin: 1rem;
+    padding: 0;
 }
 
 .locations-details__img {
     width: 40%;
     float: right;
+    margin: 0.5rem 0 0 1rem;
 }
