@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { observer, inject } from 'mobx-react';
-import { appStatePropType, appStatePropTypeDefaults } from '../../../stores';
+import { restaurantsPropType, restaurantsPropTypeDefaults } from '../../../stores/Restaurants';
 
-@inject('appState')
+@inject('restaurants')
 @observer
 class Item extends React.Component {
   constructor(props) {
@@ -13,7 +13,7 @@ class Item extends React.Component {
   }
 
   handleItemSelect = location => {
-    this.props.appState.setSelectedLocation(location);
+    this.props.restaurants.setSelectedLocation(location);
   };
 
   render() {
@@ -30,11 +30,11 @@ Item.propTypes = {
 };
 
 Item.wrappedComponent.propTypes = {
-  appState: appStatePropType
+  restaurants: restaurantsPropType
 };
 
 Item.wrappedComponent.defaultProps = {
-  appState: appStatePropTypeDefaults
+  restaurants: restaurantsPropTypeDefaults
 };
 
 export default Item;

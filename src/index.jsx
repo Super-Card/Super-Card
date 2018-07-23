@@ -1,19 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'mobx-react';
-import { AppState } from './stores/SelectedLocation';
+import { Restaurants } from './stores/Restaurants';
 import App from './App';
 
-const appState = new AppState();
+const restaurants = new Restaurants();
 
-window.appState = appState;
+window.restaurants = restaurants;
 
 ReactDOM.render(
-  <Provider appState={appState}>
+  <Provider restaurants={restaurants}>
     <App />
   </Provider>,
   document.querySelector('.container')
 );
-
-/* 
-ReactDOM.render(<App />, document.querySelector('.container')); */

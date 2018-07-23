@@ -1,7 +1,7 @@
 import { observable, action, computed } from 'mobx';
 import PropTypes from 'prop-types';
 
-class AppState {
+class Restaurants {
   @computed
   get getLocations() {
     return this.locations;
@@ -25,37 +25,37 @@ class AppState {
   }
 }
 
-const appStatePropType = PropTypes.shape({
+const restaurantsPropType = PropTypes.shape({
   locations: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number,
       name: PropTypes.string,
-      desc: PropTypes.string,
-      photo: PropTypes.string
+      desc: PropTypes.string
+      // photo: PropTypes.string
     })
   ),
   selectedLocation: PropTypes.shape({
     id: PropTypes.number,
     name: PropTypes.string,
-    desc: PropTypes.string,
-    photo: PropTypes.string
+    desc: PropTypes.string
+    // photo: PropTypes.string
   }),
   setSelectedLocation: PropTypes.func,
   getLocations: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number,
       name: PropTypes.string,
-      desc: PropTypes.string,
-      photo: PropTypes.string
+      desc: PropTypes.string
+      // photo: PropTypes.string
     })
   )
 });
 
-const appStatePropTypeDefaults = {
+const restaurantsPropTypeDefaults = {
   locations: [],
   selectedLocation: {},
   getLocations: [],
   setSelectedLocation: () => true
 };
 
-export { AppState, appStatePropType, appStatePropTypeDefaults };
+export { Restaurants, restaurantsPropType, restaurantsPropTypeDefaults };

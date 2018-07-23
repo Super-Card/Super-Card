@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Description = ({ location }) =>
-  location.Name ? (
+  location.name ? (
     <div>
-      <h2>{location.Name}</h2>
-      <p>{location.Desc}</p>
-      <img src={location.Photo} alt={location.Name} />
+      <h2>{location.name}</h2>
+      <p>{location.desc}</p>
+      <img src={location.photo} alt={location.name} />
     </div>
   ) : (
     <div>Please select a location.</div>
@@ -14,9 +14,9 @@ const Description = ({ location }) =>
 
 Description.propTypes = {
   location: PropTypes.shape({
-    Name: PropTypes.string,
-    Desc: PropTypes.string,
-    Photo: PropTypes.string
+    name: PropTypes.string,
+    desc: PropTypes.string,
+    photo: PropTypes.string
   })
 };
 
