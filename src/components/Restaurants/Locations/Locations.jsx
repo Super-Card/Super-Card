@@ -2,9 +2,9 @@ import React from 'react';
 import { observer, inject } from 'mobx-react';
 import ListItems from './ListItems';
 import Description from './Description';
-import { appStatePropType, appStatePropTypeDefaults } from '../../../stores';
+import { restaurantsPropType, restaurantsPropTypeDefaults } from '../../../stores/Restaurants';
 
-@inject('appState')
+@inject('restaurants')
 @observer
 class Locations extends React.Component {
   render() {
@@ -12,18 +12,18 @@ class Locations extends React.Component {
       <div>
         <h2>Locations</h2>
         <ListItems />
-        <Description location={this.props.appState.selectedLocation} />
+        <Description location={this.props.restaurants.selectedLocation} />
       </div>
     );
   }
 }
 
 Locations.wrappedComponent.propTypes = {
-  appState: appStatePropType
+  restaurants: restaurantsPropType
 };
 
 Locations.wrappedComponent.defaultProps = {
-  appState: appStatePropTypeDefaults
+  restaurants: restaurantsPropTypeDefaults
 };
 
 export default Locations;

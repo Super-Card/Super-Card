@@ -1,24 +1,24 @@
 import React from 'react';
 import { observer, inject } from 'mobx-react';
-import { appStatePropType, appStatePropTypeDefaults } from '../../../stores';
+import { restaurantsPropType, restaurantsPropTypeDefaults } from '../../../stores/Restaurants';
 import Item from './Item';
 
-@inject('appState')
+@inject('restaurants')
 @observer
 class ListItems extends React.Component {
   render() {
     return (
-      <div>{this.props.appState.getLocations.map(location => <Item key={location.id} location={location} />)}</div>
+      <div>{this.props.restaurants.getLocations.map(location => <Item key={location.id} location={location} />)}</div>
     );
   }
 }
 
 ListItems.wrappedComponent.propTypes = {
-  appState: appStatePropType
+  restaurants: restaurantsPropType
 };
 
 ListItems.wrappedComponent.defaultProps = {
-  appState: appStatePropTypeDefaults
+  restaurants: restaurantsPropTypeDefaults
 };
 
 export default ListItems;

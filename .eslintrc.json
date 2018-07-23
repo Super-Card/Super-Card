@@ -11,7 +11,6 @@
   "extends": ["airbnb", "prettier", "prettier/react", "plugin:require-path-exists/recommended"],
   "plugins": ["react", "prettier", "jsx-a11y", "import", "require-path-exists"],
   "rules": {
-    "experimentalDecorators": true,
     /* Enable Prettier reports as eslint errors */
     "prettier/prettier": "error",
 
