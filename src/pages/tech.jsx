@@ -6,12 +6,21 @@ import Photo from '../components/Tech/Categories/photo';
 import Tv from '../components/Tech/Categories/tv';
 
 const Tech = () => (
-  <div className="categoies-cantainer">
-    <Camera />
-    <Compurer />
-    <Mobile />
-    <Photo />
-    <Tv />
+  <div>
+    <h2>Take your discount now! -10%</h2>
+    <div className="categoies-cantainer">
+      <h4>Categories</h4>
+      <hr />
+      <Camera />
+      <hr />
+      <Compurer />
+      <hr />
+      <Mobile />
+      <hr />
+      <Photo />
+      <hr />
+      <Tv />
+    </div>
   </div>
 );
 

@@ -1,6 +1,7 @@
-.brands-box{
-    color: green;
-    width: 100%;
+.Brands-Box{
+    color: purple;
+    width: 30%;
     float: left;
-	display: inline-block;
+    margin-left: 20px;
+    border: 1px solid blue;
 }
