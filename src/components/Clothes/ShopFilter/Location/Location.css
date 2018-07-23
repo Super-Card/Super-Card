@@ -1,0 +1,10 @@
+.location-box{
+    color: green;
+    width: 100%;
+    float: left;
+	display: inline-block;
+}
+
+.input-holder{
+	margin: 5px 0px 5px 0px;
+}
