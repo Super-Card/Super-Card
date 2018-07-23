@@ -9,12 +9,12 @@ class Restaurants {
 
   @observable
   locations = [
-    { id: 1, name: 'Raffy Terrace Bar', desc: 'bla bla' },
-    { id: 2, name: 'Spaghetti Kitchen', desc: 'kla kla' },
-    { id: 3, name: 'La Bocca', desc: 'kla kla' },
-    { id: 4, name: 'BMS Cuisine', desc: 'kla kla' },
-    { id: 5, name: 'Nordsee', desc: 'kla kla' },
-    { id: 6, name: 'Casavino', desc: 'kla kla' }
+    { id: 1, name: 'Raffy Terrace Bar', desc: 'bla bla', photo: '../../assets/restaurants/raffy.jpg' },
+    { id: 2, name: 'Spaghetti Kitchen', desc: 'kla kla', photo: '../../assets/restaurants/spaghettikitchen.jpg' },
+    { id: 3, name: 'La Bocca', desc: 'kla kla', photo: '../../assets/restaurants/labocca.jpg' },
+    { id: 4, name: 'BMS Cuisine', desc: 'kla kla', photo: '../../assets/restaurants/bms.jpg' },
+    { id: 5, name: 'Nordsee', desc: 'kla kla', photo: '../../assets/restaurants/nordsee.jpg' },
+    { id: 6, name: 'Casavino', desc: 'kla kla', photo: '../../assets/restaurants/casavino.jpg' }
   ];
 
   @observable selectedLocation = {};
@@ -30,23 +30,23 @@ const restaurantsPropType = PropTypes.shape({
     PropTypes.shape({
       id: PropTypes.number,
       name: PropTypes.string,
-      desc: PropTypes.string
-      // photo: PropTypes.string
+      desc: PropTypes.string,
+      photo: PropTypes.string
     })
   ),
   selectedLocation: PropTypes.shape({
     id: PropTypes.number,
     name: PropTypes.string,
-    desc: PropTypes.string
-    // photo: PropTypes.string
+    desc: PropTypes.string,
+    photo: PropTypes.string
   }),
   setSelectedLocation: PropTypes.func,
   getLocations: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number,
       name: PropTypes.string,
-      desc: PropTypes.string
-      // photo: PropTypes.string
+      desc: PropTypes.string,
+      photo: PropTypes.string
     })
   )
 });
