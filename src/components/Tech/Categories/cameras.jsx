@@ -1,5 +1,5 @@
 import React from 'react';
 
-const Camera = () => <div>Camers</div>;
+const Camera = () => <div>Cameras</div>;
 
 export default Camera;
