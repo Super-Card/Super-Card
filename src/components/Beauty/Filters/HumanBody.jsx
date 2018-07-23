@@ -2,7 +2,7 @@ import React from 'react';
 
 const HumanBody = () => (
   <div>
-    <p>Human Body Image</p>
+    <img src="assets/beauty/human-body.png" alt="human body" />
   </div>
 );
 
