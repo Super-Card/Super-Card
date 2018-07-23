@@ -4,8 +4,12 @@ const Gender = () => (
   <div>
     <p>Gender</p>
     <ul>
-      <li>Male</li>
-      <li>Female</li>
+      <li>
+        <input type="radio" />Male
+      </li>
+      <li>
+        <input type="radio" />Female
+      </li>
     </ul>
   </div>
 );

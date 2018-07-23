@@ -8,9 +8,7 @@ import Item from './Item';
 class ListItems extends React.Component {
   render() {
     return this.props.appState.getLocations ? (
-      <ul>
-        {this.props.appState.getLocations.map(location => <Item key={location.id} location={location} />)}
-      </ul>
+      <ul>{this.props.appState.getLocations.map(location => <Item key={location.id} location={location} />)}</ul>
     ) : (
       <ul>
         <li>No found items.</li>
