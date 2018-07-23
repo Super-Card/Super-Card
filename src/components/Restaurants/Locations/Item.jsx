@@ -17,7 +17,11 @@ class Item extends React.Component {
   };
 
   render() {
-    return <button className="locations-list__item" onClick={() => this.handleItemSelect(this.props.location)}>{this.props.location.name}</button>;
+    return (
+      <button className="locations-list__item" onClick={() => this.handleItemSelect(this.props.location)}>
+        {this.props.location.name}
+      </button>
+    );
   }
 }
 
