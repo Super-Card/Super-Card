@@ -3,6 +3,7 @@ import Gender from './Gender';
 import Partners from './Partners';
 import Discounts from './Discounts';
 import HumanBody from './HumanBody';
+import Categories from './Categories';
 
 const Container = () => (
   <div>
@@ -13,6 +14,7 @@ const Container = () => (
     </div>
     <div>
       <HumanBody />
+      <Categories />
     </div>
   </div>
 );
