@@ -25,7 +25,8 @@ Item.propTypes = {
   location: PropTypes.shape({
     id: PropTypes.number,
     name: PropTypes.string,
-    desc: PropTypes.string
+    desc: PropTypes.string,
+    photo: PropTypes.string
   }).isRequired
 };
 
