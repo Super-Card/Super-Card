@@ -1,0 +1,13 @@
+.shop-box{
+	background-color: red;
+}
+
+.row {
+	display: inline-block;
+}
+
+.item {
+	width: 30%;
+	border: 1px solid purple;
+	float: left;
+}

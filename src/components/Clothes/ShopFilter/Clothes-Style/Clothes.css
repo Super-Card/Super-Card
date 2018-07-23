@@ -2,8 +2,26 @@ body {
 	margin: 0px 20px 0px 20px;
 }
 
+.content-wrapper{
+	width: 80%;
+	height: auto;
+	margin: 0px auto;
+	border: 1px solid green;
+	display: flex;
+}
+
 .filter-holder {
-	width: 200px;;
+	width: 20%;
+	border: 1px solid red;
 	height: 600px;
 	margin-left: 20px;
+	border: 1px solid red;
+}
+
+.filtered-shops {
+	width: 70%;
+	height: 600px;
+	border: 1px solid blue;
+	float: left;
+	background-color: green;
 }
