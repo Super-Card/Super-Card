@@ -2,11 +2,11 @@ import React from 'react';
 
 const ResultItem = () => (
   <div>
-    <p>Item:</p>
-    <p>Brand: Brand1</p>
+    <p>Item</p>
+    <p>Brand</p>
     <p> !Logo! </p>
-    <p>Partner: Partner123</p>
-    <p>Discount: 10% </p>
+    <p>Partner</p>
+    <p>Discount (%)</p>
   </div>
 );
 

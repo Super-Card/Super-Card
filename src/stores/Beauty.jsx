@@ -15,7 +15,7 @@ export class Beauty {
 
   @observable selectedItem = {};
   @action
-  setBeauty(resultItem) {
+  setSelectedItem(resultItem) {
     this.selectedItem = resultItem;
   }
 }

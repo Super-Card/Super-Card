@@ -9,7 +9,7 @@ class ResultList extends React.Component {
   render() {
     return (
       <div>
-        {this.props.beauty.getResultItems.map(resultItem => <ResultItem key={resultItem.id} resultItem={resultItem} />)}
+        {this.props.beauty.resultItems.map(resultItem => <ResultItem key={resultItem.id} resultItem={resultItem} />)}
       </div>
     );
   }
