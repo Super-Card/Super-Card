@@ -1,0 +1,45 @@
+.locations-container {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.locations-list {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.locations-list__item {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #092B75;
+    color: white;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.locations-list__item:focus {
+    outline: none;
+}
+
+.locations-list__item:hover {
+    background-color: #1C51C2;
+    transition: background-color .25s;
+}
+
+.locations-details {
+    width: auto;
+    padding: 1rem;
+}
+
+.locations-details__name {
+
+}
+
+.locations-details__img {
+    width: 40%;
+    float: right;
+}

@@ -8,7 +8,7 @@ import Item from './Item';
 class ListItems extends React.Component {
   render() {
     return (
-      <div>{this.props.restaurants.getLocations.map(location => <Item key={location.id} location={location} />)}</div>
+      <div className="locations-list">{this.props.restaurants.getLocations.map(location => <Item key={location.id} location={location} />)}</div>
     );
   }
 }

@@ -9,8 +9,7 @@ import { restaurantsPropType, restaurantsPropTypeDefaults } from '../../../store
 class Locations extends React.Component {
   render() {
     return (
-      <div>
-        <h2>Locations</h2>
+      <div className="locations-container">
         <ListItems />
         <Description location={this.props.restaurants.selectedLocation} />
       </div>

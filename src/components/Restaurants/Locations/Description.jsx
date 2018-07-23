@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 
 const Description = ({ location }) =>
   location.name ? (
-    <div>
-      <h2>{location.name}</h2>
-      <p>{location.desc}</p>
-      <img src={location.photo} alt={location.name} />
+    <div className="locations-details">
+      <img src={location.photo} alt={location.name} className="locations-details__img" />
+      <h2 className="locations-details__name">{location.name}</h2>
+      <p className="locations-details__desc">{location.desc}</p>
     </div>
   ) : (
-    <div>Please select a location.</div>
+    <div className="locations-details--unselected">Please select a location.</div>
   );
 
 Description.propTypes = {
