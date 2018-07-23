@@ -4,9 +4,15 @@ const Categories = () => (
   <div>
     <p>Categories:</p>
     <ul>
-      <li>Face</li>
-      <li>Hair</li>
-      <li>Body</li>
+      <li>
+        <input type="checkbox" />Face
+      </li>
+      <li>
+        <input type="checkbox" />Hair
+      </li>
+      <li>
+        <input type="checkbox" />Body
+      </li>
     </ul>
   </div>
 );
