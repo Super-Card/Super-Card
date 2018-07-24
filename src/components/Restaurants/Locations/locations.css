@@ -58,6 +58,11 @@
     background-size: cover; 
 }
 
+.locations-details--unselected {
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
 .restaurants-intro {
     width: 85%;
     margin: auto;
