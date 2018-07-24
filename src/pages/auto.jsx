@@ -1,8 +1,9 @@
 import React from 'react';
+import Newsletter from '../components/Auto/Newsletter/Newsletter';
 
 const Auto = () => (
   <div>
-    <p>Hello from Auto</p>
+    <Newsletter />
   </div>
 );
 
