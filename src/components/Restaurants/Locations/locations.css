@@ -1,7 +1,9 @@
 .locations-container {
-    background-color: rgba(229, 229, 229, 0.2);
+    background-color: rgba(229, 229, 229, 0.432);
     display: flex;
     flex-direction: row;
+    width: 1150px;
+    margin: auto;
 }
 
 .locations-list {
@@ -32,6 +34,8 @@
 
 .locations-details {
     width: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .locations-details__name {
@@ -43,8 +47,20 @@
     padding: 0;
 }
 
+.locations-details__text {
+    width: 600px;
+}
+
 .locations-details__img {
-    width: 40%;
-    float: right;
-    margin: 0.5rem 0 0 1rem;
+    width: 350px;
+    height: 300px;
+    background-position: center;
+    background-size: cover; 
+}
+
+.restaurants-intro {
+    width: 85%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
