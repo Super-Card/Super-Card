@@ -1,0 +1,50 @@
+.locations-container {
+    background-color: rgba(229, 229, 229, 0.2);
+    display: flex;
+    flex-direction: row;
+}
+
+.locations-list {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.locations-list__item {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #092B75;
+    color: white;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.locations-list__item:focus {
+    outline: none;
+}
+
+.locations-list__item:hover {
+    background-color: #1C51C2;
+    transition: background-color .25s;
+}
+
+.locations-details {
+    width: auto;
+}
+
+.locations-details__name {
+    margin: 1rem;
+}
+
+.locations-details__desc {
+    margin: 1rem;
+    padding: 0;
+}
+
+.locations-details__img {
+    width: 40%;
+    float: right;
+    margin: 0.5rem 0 0 1rem;
+}
