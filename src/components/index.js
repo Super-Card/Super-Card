@@ -1,6 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
-import Introduction from './restaurants/Introduction';
+import Introduction from './Restaurants/Introduction';
 import LocationsWrapper from './Restaurants/Locations/LocationsWrapper';
 import ReservationsWrapper from './Restaurants/Reservations/ReservationsWrapper';
 

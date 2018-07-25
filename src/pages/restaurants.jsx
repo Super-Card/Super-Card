@@ -3,6 +3,7 @@ import Introduction from '../components/Restaurants/Introduction';
 import LocationsWrapper from '../components/Restaurants/Locations/LocationsWrapper';
 import ReservationsWrapper from '../components/Restaurants/Reservations/ReservationsWrapper';
 import '../components/Restaurants/Locations/locations.css';
+import '../components/Restaurants/Reservations/reservations.css';
 
 const Restaurants = () => (
   <div>
