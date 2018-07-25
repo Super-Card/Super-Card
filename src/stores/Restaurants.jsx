@@ -59,6 +59,18 @@ class Restaurants {
   setSelectedLocation(location) {
     this.selectedLocation = location;
   }
+
+  @observable reservedRestaurant = {};
+
+  @action
+  setReservedRestaurant(location) {
+    this.reservedRestaurant = location;
+  }
+
+  @computed
+  get getReservedRestaurant() {
+    return this.reservedRestaurant;
+  }
 }
 
 const restaurantsPropType = PropTypes.shape({
@@ -84,14 +96,30 @@ const restaurantsPropType = PropTypes.shape({
       desc: PropTypes.string,
       photo: PropTypes.string
     })
-  )
+  ),
+  reservedRestaurant: PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    desc: PropTypes.string,
+    photo: PropTypes.string
+  }),
+  setReservedRestaurant: PropTypes.func,
+  getReservedRestaurant: PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    desc: PropTypes.string,
+    photo: PropTypes.string
+  })
 });
 
 const restaurantsPropTypeDefaults = {
   locations: [],
   selectedLocation: {},
   getLocations: [],
-  setSelectedLocation: () => true
+  setSelectedLocation: () => true,
+  reservedRestaurant: {},
+  setReservedRestaurant: () => true,
+  getReservedRestaurant: {}
 };
 
 export { Restaurants, restaurantsPropType, restaurantsPropTypeDefaults };
