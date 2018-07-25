@@ -31,6 +31,23 @@
     transition: background-color .25s;
 }
 
+.location-button--selected {
+    background-color: #ffbf44;
+    color: white;
+    margin: .5rem;
+    border: 3px solid #ffbf44;
+    border-radius: 50px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: .9rem;
+    cursor: auto;
+}
+
+.location-button--selected:focus {
+    outline: none;
+}
+
 .reservation-complete {
     display: flex;
     justify-content: center;
