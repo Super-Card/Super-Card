@@ -6,7 +6,7 @@ import { restaurantsPropType, restaurantsPropTypeDefaults } from '../../../store
 
 @inject('restaurants')
 @observer
-class Locations extends React.Component {
+class LocationsWrapper extends React.Component {
   render() {
     return (
       <div className="locations-container">
@@ -17,12 +17,12 @@ class Locations extends React.Component {
   }
 }
 
-Locations.wrappedComponent.propTypes = {
+LocationsWrapper.wrappedComponent.propTypes = {
   restaurants: restaurantsPropType
 };
 
-Locations.wrappedComponent.defaultProps = {
+LocationsWrapper.wrappedComponent.defaultProps = {
   restaurants: restaurantsPropTypeDefaults
 };
 
-export default Locations;
+export default LocationsWrapper;
