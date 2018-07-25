@@ -1,8 +1,9 @@
 import React from 'react';
 
 const CompleteReservation = () => (
-  <div>
-    <p>Complete Reservation</p>
+  <div className="reservation-complete">
+    <button className="reservation-confirm">Complete Reservation</button>
+    <button className="reservation-clear">Clear</button>
   </div>
 );
 

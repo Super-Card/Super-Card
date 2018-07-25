@@ -6,7 +6,8 @@ import SelectPeople from './SelectPeople';
 import CompleteReservation from './CompleteReservation';
 
 const ReservationsWrapper = () => (
-  <div>
+  <div className="reservations-container">
+    <h1>Reserve your table</h1>
     <SelectLocation />
     <SelectDate />
     <SelectTime />
