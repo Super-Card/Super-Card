@@ -8,13 +8,16 @@ const Partners = () => (
         <input type="checkbox" />Beauty Zone
       </li>
       <li>
-        <input type="checkbox" />Lilly Drogerie
+        <input type="checkbox" />Sephora
+      </li>
+      <li>
+        <input type="checkbox" />Douglas
       </li>
       <li>
         <input type="checkbox" />DM
       </li>
       <li>
-        <input type="checkbox" />Casyopea
+        <input type="checkbox" />Lilly Drogerie
       </li>
     </ul>
   </div>
