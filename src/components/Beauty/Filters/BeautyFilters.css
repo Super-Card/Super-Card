@@ -1,0 +1,42 @@
+.beauty-intro {
+    width: 85%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.discount-filter-beauty .gender-filter-beauty .partners-filter-beauty {
+    width: 100%;
+    float: left;
+}
+
+.categories-filter-beauty {
+    width: 100%;
+    float: right;
+}
+
+h3 {
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+    border: solid 1px #092B75;
+    background-color: #1C51C2;
+    margin: 5px;
+    padding: 5px;
+    width: 160px;
+}
+
+.label {
+    color: white;
+    font-size: 13px;
+    border: solid 4px #092B75;
+    background-color: #FFFFFC;
+}
+
+.human-body-img {
+    float: left;
+}
+
+.human-body-img-categories {
+    cursor: pointer;
+}
