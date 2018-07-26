@@ -71,6 +71,11 @@ class Restaurants {
   get getReservedRestaurant() {
     return this.reservedRestaurant;
   }
+
+  @action
+  resetReservation() {
+    this.setReservedRestaurant({});
+  }
 }
 
 const restaurantsPropType = PropTypes.shape({
@@ -109,7 +114,8 @@ const restaurantsPropType = PropTypes.shape({
     name: PropTypes.string,
     desc: PropTypes.string,
     photo: PropTypes.string
-  })
+  }),
+  resetReservation: PropTypes.func
 });
 
 const restaurantsPropTypeDefaults = {
@@ -119,7 +125,8 @@ const restaurantsPropTypeDefaults = {
   setSelectedLocation: () => true,
   reservedRestaurant: {},
   setReservedRestaurant: () => true,
-  getReservedRestaurant: {}
+  getReservedRestaurant: {},
+  resetReservation: () => true
 };
 
 export { Restaurants, restaurantsPropType, restaurantsPropTypeDefaults };
