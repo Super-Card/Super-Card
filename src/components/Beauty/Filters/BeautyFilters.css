@@ -8,11 +8,13 @@
 .discount-filter-beauty .gender-filter-beauty .partners-filter-beauty {
     width: 100%;
     float: left;
+    z-index: 1;
 }
 
 .categories-filter-beauty {
     width: 100%;
     float: right;
+    z-index: 1;
 }
 
 h3 {
@@ -26,7 +28,8 @@ h3 {
     width: 160px;
 }
 
-.label {
+label {
+    display: block;
     color: white;
     font-size: 13px;
     border: solid 4px #092B75;
@@ -34,7 +37,9 @@ h3 {
 }
 
 .human-body-img {
+    position: absolute;
     float: left;
+    z-index: -1;
 }
 
 .human-body-img-categories {
