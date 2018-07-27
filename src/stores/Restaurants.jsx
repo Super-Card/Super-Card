@@ -76,6 +76,18 @@ class Restaurants {
   resetReservation() {
     this.setReservedRestaurant({});
   }
+
+  @observable showModal = false;
+
+  @computed
+  get getModalState() {
+    return this.showModal;
+  }
+
+  @action
+  toggleModal() {
+    this.showModal = !this.showModal;
+  }
 }
 
 const restaurantsPropType = PropTypes.shape({
@@ -115,7 +127,10 @@ const restaurantsPropType = PropTypes.shape({
     desc: PropTypes.string,
     photo: PropTypes.string
   }),
-  resetReservation: PropTypes.func
+  resetReservation: PropTypes.func,
+  showModal: PropTypes.bool,
+  getModalState: PropTypes.bool,
+  toggleModal: PropTypes.func
 });
 
 const restaurantsPropTypeDefaults = {

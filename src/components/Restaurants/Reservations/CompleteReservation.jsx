@@ -9,7 +9,12 @@ class CompleteReservation extends React.Component {
   render() {
     return (
       <div className="reservation-complete">
-        <button className="reservation-confirm">Complete Reservation</button>
+        <button
+          className={this.props.restaurants.getReservedRestaurant.name ? 'reservation-confirm' : 'reservation-disabled'}
+          onClick={this.props.restaurants.getReservedRestaurant.name ? () => '' : () => ''}
+        >
+          Complete Reservation
+        </button>
         <button onClick={() => this.props.restaurants.resetReservation()} className="reservation-clear">
           Clear
         </button>

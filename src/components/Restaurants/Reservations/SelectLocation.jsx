@@ -9,7 +9,7 @@ class SelectLocation extends React.Component {
   render() {
     return (
       <div>
-        <p>Select Location</p>
+        <p className="location-text">Please select a restaurant:</p>
         <div className="location-list">
           {this.props.restaurants.getLocations.map(location => <Location key={location.id} location={location} />)}
         </div>
