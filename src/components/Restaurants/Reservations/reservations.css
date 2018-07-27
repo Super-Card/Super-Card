@@ -75,6 +75,24 @@
     background-color: #1c51c2d0;
 }
 
+.reservation-disabled {
+    background-color: #1c51c26c;
+    border: none;
+    border-radius: 50px;
+    padding: .688rem 1.188rem;
+    cursor: pointer;
+    color: white;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 .5rem;
+    cursor: not-allowed;
+}
+
+.reservation-disabled:focus {
+    outline: none;
+}
+
 .reservation-clear {
     background-color: #c7c7c7;
     border: none;
