@@ -2,7 +2,7 @@ import React from 'react';
 import './BeautyFilters.css';
 
 const Gender = () => (
-  <div className="gender-filter-beauty">
+  <div>
     <h3>Gender</h3>
     <label>
       <input type="checkbox" name="male" id="male" value="male" />Male
