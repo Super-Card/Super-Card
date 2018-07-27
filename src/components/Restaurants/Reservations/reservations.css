@@ -117,3 +117,27 @@
 .reservation-clear:hover {
     background-color: #a5a5a57a;
 }
+
+.confirmation-modal {
+    position: absolute;
+    background: #f0f0f0;
+    box-shadow: 0 0 10px rgb(119, 119, 119);
+    top: 640px;
+    padding: 3rem;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.confirmation-close {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.confirmation-title {
+    margin: 0;
+    text-align: center;
+}
