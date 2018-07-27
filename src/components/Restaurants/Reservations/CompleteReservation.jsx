@@ -11,6 +11,7 @@ class CompleteReservation extends React.Component {
       <div className="reservation-complete">
         <button
           className={this.props.restaurants.getReservedRestaurant.name ? 'reservation-confirm' : 'reservation-disabled'}
+          onClick={this.props.restaurants.getReservedRestaurant.name ? () => '' : () => ''}
         >
           Complete Reservation
         </button>

@@ -4,6 +4,10 @@
     margin-top: 2rem;
 }
 
+.location-text {
+    text-align: center;
+}
+
 .location-list {
     display: flex;
     flex-direction: row;
