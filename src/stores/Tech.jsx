@@ -1,4 +1,8 @@
+import { observable, action, computed } from 'mobx';
+import PropTypes from 'prop-types';
+
 export class Tech {
+  @observable
   items = [
     {
       id: 1,
@@ -31,7 +35,47 @@ export class Tech {
       photo: '../../assets/tech/tv.png'
     }
   ];
+
+  @observable selectedItem = {};
+
+  @computed
   get getItems() {
     return this.items;
   }
+  @action
+  setSelectedItem(item) {
+    this.selectedItem = item;
+  }
 }
+
+export const techPropType = PropTypes.shape({
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      title: PropTypes.string,
+      text: PropTypes.string,
+      photo: PropTypes.string
+    })
+  ),
+  selectedItem: PropTypes.shape({
+    id: PropTypes.number,
+    title: PropTypes.string,
+    text: PropTypes.string,
+    photo: PropTypes.string
+  }),
+  setSelectedItem: PropTypes.func,
+  getItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      title: PropTypes.string,
+      text: PropTypes.string,
+      photo: PropTypes.string
+    })
+  )
+});
+export const techPropTypeDefaults = {
+  items: [],
+  selectedItem: {},
+  getItems: [],
+  setSelectedItem: () => true
+};
