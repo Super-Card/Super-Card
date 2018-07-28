@@ -1,7 +1,12 @@
 .reservations-container {
     width: 1150px;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.reservations-container h1 {
+    text-align: left;
 }
 
 .location-text {
@@ -55,7 +60,6 @@
 .reservation-complete {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
 }
 
 .reservation-confirm {
