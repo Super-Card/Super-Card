@@ -1,9 +1,9 @@
 import React from 'react';
-import Newsletter from '../components/Auto/Newsletter/Newsletter';
+import CheckCard from '../components/Auto/CheckCard/CheckCard';
 
 const Auto = () => (
   <div>
-    <Newsletter />
+    <CheckCard />
   </div>
 );
 
