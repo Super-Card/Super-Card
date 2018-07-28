@@ -6,7 +6,7 @@ import { techPropType, techPropTypeDefaults } from '../../../stores/Tech';
 
 @inject('tech')
 @observer
-export class CategoryContainer extends React.Component {
+class CategoryContainer extends React.Component {
   render() {
     return (
       <div className="category-container">
@@ -23,3 +23,4 @@ CategoryContainer.wrappedComponent.propTypes = {
 CategoryContainer.wrappedComponent.defaultProps = {
   tech: techPropTypeDefaults
 };
+export default CategoryContainer;

@@ -13,7 +13,7 @@ class ResultList extends React.Component {
   }
 
   handleItemSelect = category => {
-    this.props.tech.setSelectedLocation(category);
+    this.props.tech.setSelectedItem(category);
   };
 
   render() {
