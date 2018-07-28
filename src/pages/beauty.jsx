@@ -7,12 +7,11 @@ import '../components/Beauty/FiltersResult/BeautyFiltersResult.css';
 const Beauty = () => (
   <div className="beauty-intro">
     <h1>Beauty</h1>
-    <p>Receive special discounts at the following Beauty Shopping centers for high level cosmetics!!!</p>
     <p>
-      By using Your Super Card, you can save 10-30% on hundreds of beauty products for hair, face and body from top
-      Brands.
+      Receive special discounts at the following Beauty Shopping centers for high level cosmetics! By using Your Super
+      Card, you can save up to 30% on hundreds of beauty products for hair, face and body from top Brands. Check out
+      where the best offers are and learn how you can benefit from using the Card.
     </p>
-    <p>Check out where the top offers are and learn how you can benefit from using the Card.</p>
     <Container />
     <ResultList />
   </div>

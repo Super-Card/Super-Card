@@ -5,16 +5,17 @@
     padding-bottom: 1rem;
 }
 
-.discount-filter-beauty .gender-filter-beauty .partners-filter-beauty {
-    width: 100%;
-    float: left;
-    z-index: 1;
+.beauty-filter-area {
+    background-color: rgba(229, 229, 229, 0.432);
+    z-index: -1;
 }
 
-.categories-filter-beauty {
+.beauty-filter-area-left {
     width: 100%;
-    float: right;
-    z-index: 1;
+    z-index: 99;
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 1.5%;
 }
 
 h3 {
@@ -30,18 +31,21 @@ h3 {
 
 label {
     display: block;
-    color: white;
-    font-size: 13px;
-    border: solid 4px #092B75;
+    color: #092B75;
+    font-size: 14px bold;
+    width: 170px;
+    border: solid 1px #FFBF44;
     background-color: #FFFFFC;
 }
 
 .human-body-img {
-    position: absolute;
-    float: left;
-    z-index: -1;
+    z-index: 10;
+    position: relative;
+    width: 55%;
+    margin: auto;
 }
 
 .human-body-img-categories {
     cursor: pointer;
+    position: relative;
 }
