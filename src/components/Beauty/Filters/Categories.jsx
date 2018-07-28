@@ -1,19 +1,18 @@
 import React from 'react';
+import './BeautyFilters.css';
 
 const Categories = () => (
   <div>
-    <p>Categories:</p>
-    <ul>
-      <li>
-        <input type="checkbox" />Face
-      </li>
-      <li>
-        <input type="checkbox" />Hair
-      </li>
-      <li>
-        <input type="checkbox" />Body
-      </li>
-    </ul>
+    <h3>Categories</h3>
+    <label>
+      <input type="checkbox" name="face" id="face" value="face" />Face
+    </label>
+    <label>
+      <input type="checkbox" name="hair" id="hair" value="hair" />Hair
+    </label>
+    <label>
+      <input type="checkbox" name="body" id="body" value="body" />Body
+    </label>
   </div>
 );
 

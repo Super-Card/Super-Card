@@ -1,0 +1,51 @@
+.beauty-intro {
+    width: 85%;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.beauty-filter-area {
+    background-color: rgba(229, 229, 229, 0.432);
+    z-index: -1;
+}
+
+.beauty-filter-area-left {
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 1.5%;
+}
+
+h3 {
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+    border: solid 1px #092B75;
+    background-color: #1C51C2;
+    margin: 5px;
+    padding: 5px;
+    width: 160px;
+}
+
+label {
+    display: block;
+    color: #092B75;
+    font-size: 14px bold;
+    width: 170px;
+    border: solid 1px #FFBF44;
+    background-color: #FFFFFC;
+}
+
+.human-body-img {
+    z-index: 10;
+    position: relative;
+    width: 55%;
+    margin: auto;
+}
+
+.human-body-img-categories {
+    cursor: pointer;
+    position: relative;
+}

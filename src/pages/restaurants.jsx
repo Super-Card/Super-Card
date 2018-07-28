@@ -1,14 +1,15 @@
 import React from 'react';
 import Introduction from '../components/Restaurants/Introduction';
-import Locations from '../components/Restaurants/Locations/Locations';
-import ChatBot from '../components/Restaurants/ChatBot/ChatBot';
+import LocationsWrapper from '../components/Restaurants/Locations/LocationsWrapper';
+import ReservationsWrapper from '../components/Restaurants/Reservations/ReservationsWrapper';
 import '../components/Restaurants/Locations/locations.css';
+import '../components/Restaurants/Reservations/reservations.css';
 
 const Restaurants = () => (
   <div>
     <Introduction />
-    <Locations />
-    <ChatBot />
+    <LocationsWrapper />
+    <ReservationsWrapper />
   </div>
 );
 

@@ -59,6 +59,35 @@ class Restaurants {
   setSelectedLocation(location) {
     this.selectedLocation = location;
   }
+
+  @observable reservedRestaurant = {};
+
+  @action
+  setReservedRestaurant(location) {
+    this.reservedRestaurant = location;
+  }
+
+  @computed
+  get getReservedRestaurant() {
+    return this.reservedRestaurant;
+  }
+
+  @action
+  resetReservation() {
+    this.setReservedRestaurant({});
+  }
+
+  @observable showModal = false;
+
+  @computed
+  get getModalState() {
+    return this.showModal;
+  }
+
+  @action
+  toggleModal() {
+    this.showModal = !this.showModal;
+  }
 }
 
 const restaurantsPropType = PropTypes.shape({
@@ -84,14 +113,35 @@ const restaurantsPropType = PropTypes.shape({
       desc: PropTypes.string,
       photo: PropTypes.string
     })
-  )
+  ),
+  reservedRestaurant: PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    desc: PropTypes.string,
+    photo: PropTypes.string
+  }),
+  setReservedRestaurant: PropTypes.func,
+  getReservedRestaurant: PropTypes.shape({
+    id: PropTypes.number,
+    name: PropTypes.string,
+    desc: PropTypes.string,
+    photo: PropTypes.string
+  }),
+  resetReservation: PropTypes.func,
+  showModal: PropTypes.bool,
+  getModalState: PropTypes.bool,
+  toggleModal: PropTypes.func
 });
 
 const restaurantsPropTypeDefaults = {
   locations: [],
   selectedLocation: {},
   getLocations: [],
-  setSelectedLocation: () => true
+  setSelectedLocation: () => true,
+  reservedRestaurant: {},
+  setReservedRestaurant: () => true,
+  getReservedRestaurant: {},
+  resetReservation: () => true
 };
 
 export { Restaurants, restaurantsPropType, restaurantsPropTypeDefaults };

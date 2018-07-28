@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Introduction = () => (
-  <div>
+  <div className="restaurants-intro">
     <h1>Restaurants</h1>
     <p>
       SuperCard promises foodies a way to save money on restaurant bills. Call ahead to reserve a table, mention you are

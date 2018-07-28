@@ -1,0 +1,143 @@
+.reservations-container {
+    width: 1150px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.location-text {
+    text-align: center;
+}
+
+.location-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.location-button {
+    margin: .5rem;
+    background-color: transparent;
+    border: 3px solid #ffbf44;
+    border-radius: 50px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: .9rem;
+}
+
+.location-button:focus {
+    outline: none;
+}
+
+.location-button:hover {
+    background-color: #ffbf44;
+    color: white;
+    transition: background-color .25s;
+}
+
+.location-button--selected {
+    background-color: #ffbf44;
+    color: white;
+    margin: .5rem;
+    border: 3px solid #ffbf44;
+    border-radius: 50px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: .9rem;
+    cursor: auto;
+}
+
+.location-button--selected:focus {
+    outline: none;
+}
+
+.reservation-complete {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.reservation-confirm {
+    background-color: #1c51c2;
+    border: none;
+    border-radius: 50px;
+    padding: .688rem 1.188rem;
+    cursor: pointer;
+    color: white;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 .5rem;
+}
+
+.reservation-confirm:focus {
+    outline: none;
+}
+
+.reservation-confirm:hover {
+    background-color: #1c51c2d0;
+}
+
+.reservation-disabled {
+    background-color: #1c51c26c;
+    border: none;
+    border-radius: 50px;
+    padding: .688rem 1.188rem;
+    cursor: pointer;
+    color: white;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0 .5rem;
+    cursor: not-allowed;
+}
+
+.reservation-disabled:focus {
+    outline: none;
+}
+
+.reservation-clear {
+    background-color: #c7c7c7;
+    border: none;
+    border-radius: 50px;
+    padding: .688rem 1.188rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    margin: 0 .5rem;
+}
+
+.reservation-clear:focus {
+    outline: none;
+}
+
+.reservation-clear:hover {
+    background-color: #a5a5a57a;
+}
+
+.confirmation-modal {
+    position: absolute;
+    background: #f0f0f0;
+    box-shadow: 0 0 10px rgb(119, 119, 119);
+    top: 640px;
+    padding: 3rem;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.confirmation-close {
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.confirmation-title {
+    margin: 0;
+    text-align: center;
+}
