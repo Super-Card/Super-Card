@@ -12,7 +12,10 @@ class CompleteReservation extends React.Component {
     this.filledOut = this.filledOut.bind(this);
   }
 
-  filledOut = () => this.props.restaurants.getReservedRestaurant.name && this.props.restaurants.getSelectedDate;
+  filledOut = () =>
+    this.props.restaurants.getReservedRestaurant.name &&
+    this.props.restaurants.getSelectedDate &&
+    this.props.restaurants.getSelectedPeople;
 
   render() {
     return (

@@ -18,9 +18,19 @@ class SelectDate extends React.Component {
   }
 
   render() {
+    const today = new Date();
+
     return (
       <div>
-        <DayPickerInput onDayChange={this.handleDayChange} />
+        <DayPickerInput
+          onDayChange={this.handleDayChange}
+          value={this.props.restaurants.getSelectedDate}
+          placeholder="Select a date"
+          dayPickerProps={{
+            disabledDays: { before: today },
+            fixedWeeks: true
+          }}
+        />
       </div>
     );
   }
