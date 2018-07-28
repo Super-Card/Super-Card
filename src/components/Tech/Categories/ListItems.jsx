@@ -9,7 +9,7 @@ class ListItems extends React.Component {
   render() {
     return (
       <div className="category-list">
-        {this.props.tech.getItems.map(category => <ResultList key={category.id} Category={category} />)}
+        {this.props.tech.getItems.map(category => <ResultList key={category.id} category={category} />)}
       </div>
     );
   }

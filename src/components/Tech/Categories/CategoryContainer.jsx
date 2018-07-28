@@ -11,7 +11,7 @@ class CategoryContainer extends React.Component {
     return (
       <div className="category-container">
         <ListItems />
-        <ItemDetail Category={this.props.tech.selectedItem} />
+        <ItemDetail category={this.props.tech.selectedItem} />
       </div>
     );
   }
