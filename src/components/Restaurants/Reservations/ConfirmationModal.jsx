@@ -25,7 +25,7 @@ class ConfirmationModal extends React.Component {
           <p>Reservation number: {Math.floor(Math.random() * 1000) + 5000}</p>
           <p>
             You have a reservation at {this.props.restaurants.getReservedRestaurant.name} on{' '}
-            {this.props.restaurants.getSelectedDate.toLocaleDateString()} at pm for people.
+            {this.props.restaurants.getSelectedDate.toLocaleDateString('en-US')} at pm for people.
           </p>
           <button onClick={() => this.handleCloseModal()} className="reservation-confirm confirmation-close">
             Close
