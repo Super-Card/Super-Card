@@ -11,6 +11,8 @@
 
 .location-text {
     text-align: center;
+    font-weight: 700;
+    margin-top: 1.5rem;
 }
 
 .location-list {
@@ -51,6 +53,7 @@
     font-family: inherit;
     font-size: .9rem;
     cursor: auto;
+    font-weight: 700;
 }
 
 .location-button--selected:focus {
@@ -122,11 +125,20 @@
     background-color: #a5a5a57a;
 }
 
+.confirmation-modal-bcg {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.247);
+}
+
 .confirmation-modal {
     position: absolute;
-    background: #f0f0f0;
+    background: white;
     box-shadow: 0 0 10px rgb(119, 119, 119);
-    top: 640px;
+    top: 40vh;
     padding: 3rem;
     width: 700px;
     margin-left: auto;
