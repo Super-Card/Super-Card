@@ -18,9 +18,16 @@ class SelectPeople extends React.Component {
   render() {
     return (
       <div>
-        <p>Select People</p>
+        <p>How many people do you need a reservation for?</p>
         <form>
-          <input type="number" min="1" max="10" step="1" onChange={this.handleChange} />
+          <input
+            type="number"
+            min="1"
+            max="10"
+            step="1"
+            onChange={this.handleChange}
+            value={this.props.restaurants.getSelectedPeople}
+          />
         </form>
       </div>
     );
