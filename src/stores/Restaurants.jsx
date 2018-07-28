@@ -88,11 +88,25 @@ class Restaurants {
     this.selectedDate = date;
   }
 
+  // SelectPeople
+  @observable selectedPeople = '';
+
+  @computed
+  get getSelectedPeople() {
+    return this.selectedPeople;
+  }
+
+  @action
+  setSelectedPeople(num) {
+    this.selectedPeople = num;
+  }
+
   // CompleteReservation and ConfirmationModal
   @action
   resetReservation() {
     this.setReservedRestaurant({});
     this.setSelectedDate();
+    this.setSelectedPeople('');
   }
 
   @observable showModal = false;
@@ -148,6 +162,9 @@ const restaurantsPropType = PropTypes.shape({
   selectedDate: PropTypes.object,
   getSelectedDate: PropTypes.object,
   setSelectedDate: PropTypes.func,
+  selectedPeople: PropTypes.string,
+  getSelectedPeople: PropTypes.string,
+  setSelectedPeople: PropTypes.func,
   resetReservation: PropTypes.func,
   showModal: PropTypes.bool,
   getModalState: PropTypes.bool,
@@ -165,6 +182,9 @@ const restaurantsPropTypeDefaults = {
   selectedDate: {},
   getSelectedDate: {},
   setSelectedDate: () => true,
+  selectedPeople: '',
+  getSelectedPeople: '',
+  setSelectedPeople: () => true,
   resetReservation: () => true
 };
 
