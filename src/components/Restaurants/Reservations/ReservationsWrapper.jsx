@@ -4,6 +4,7 @@ import SelectDate from './SelectDate';
 import SelectTime from './SelectTime';
 import SelectPeople from './SelectPeople';
 import CompleteReservation from './CompleteReservation';
+import './reservations.css';
 
 const ReservationsWrapper = () => (
   <div className="reservations-container">
