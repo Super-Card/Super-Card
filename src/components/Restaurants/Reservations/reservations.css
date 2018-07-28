@@ -11,6 +11,8 @@
 
 .location-text {
     text-align: center;
+    font-weight: 700;
+    margin-top: 1.5rem;
 }
 
 .location-list {
@@ -51,6 +53,7 @@
     font-family: inherit;
     font-size: .9rem;
     cursor: auto;
+    font-weight: 700;
 }
 
 .location-button--selected:focus {
