@@ -53,6 +53,7 @@ class Restaurants {
     }
   ];
 
+  // Restaurants
   @observable selectedLocation = {};
 
   @action
@@ -60,12 +61,9 @@ class Restaurants {
     this.selectedLocation = location;
   }
 
+  // Reserve your table
+  // SelectLocation
   @observable reservedRestaurant = {};
-
-  @action
-  setReservedRestaurant(location) {
-    this.reservedRestaurant = location;
-  }
 
   @computed
   get getReservedRestaurant() {
@@ -73,8 +71,28 @@ class Restaurants {
   }
 
   @action
+  setReservedRestaurant(location) {
+    this.reservedRestaurant = location;
+  }
+
+  // SelectDate
+  @observable selectedDate = undefined;
+
+  @computed
+  get getSelectedDate() {
+    return this.selectedDate;
+  }
+
+  @action
+  setSelectedDate(date) {
+    this.selectedDate = date;
+  }
+
+  // CompleteReservation and ConfirmationModal
+  @action
   resetReservation() {
     this.setReservedRestaurant({});
+    this.setSelectedDate();
   }
 
   @observable showModal = false;
@@ -127,6 +145,9 @@ const restaurantsPropType = PropTypes.shape({
     desc: PropTypes.string,
     photo: PropTypes.string
   }),
+  selectedDate: PropTypes.object,
+  getSelectedDate: PropTypes.object,
+  setSelectedDate: PropTypes.func,
   resetReservation: PropTypes.func,
   showModal: PropTypes.bool,
   getModalState: PropTypes.bool,
@@ -141,6 +162,9 @@ const restaurantsPropTypeDefaults = {
   reservedRestaurant: {},
   setReservedRestaurant: () => true,
   getReservedRestaurant: {},
+  selectedDate: {},
+  getSelectedDate: {},
+  setSelectedDate: () => true,
   resetReservation: () => true
 };
 
