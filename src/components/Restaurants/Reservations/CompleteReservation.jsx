@@ -13,10 +13,14 @@ class CompleteReservation extends React.Component {
         <div className="reservation-complete">
           <button
             className={
-              this.props.restaurants.getReservedRestaurant.name ? 'reservation-confirm' : 'reservation-disabled'
+              this.props.restaurants.getReservedRestaurant.name && this.props.restaurants.getSelectedDate
+                ? 'reservation-confirm'
+                : 'reservation-disabled'
             }
             onClick={
-              this.props.restaurants.getReservedRestaurant.name ? () => this.props.restaurants.toggleModal() : () => ''
+              this.props.restaurants.getReservedRestaurant.name && this.props.restaurants.getSelectedDate
+                ? () => this.props.restaurants.toggleModal()
+                : () => ''
             }
           >
             Complete Reservation
