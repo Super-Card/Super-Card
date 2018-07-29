@@ -4,3 +4,33 @@
     width: 87%;
     margin: auto; 
 }
+.category-list{
+    width: 250px;
+}
+.category-list-item{
+    background-color:  #092B75;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 18px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px #888888;
+}
+.category-list-item:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: transform .5s;
+    background-color :#1C51C2;
+}
+.item-detail{
+    width: 75%;
+    background-color: #121212;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px #888888;    
+}
+.info{
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+}
