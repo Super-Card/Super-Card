@@ -18,7 +18,6 @@ class SelectPeople extends React.Component {
   render() {
     return (
       <div className="reservations-people">
-        {/* <p>How many people do you need a reservation for?</p> */}
         <form>
           <input
             type="number"

@@ -11,7 +11,7 @@ const Description = ({ location }) =>
       <div className="locations-details__img" style={{ backgroundImage: `url(${location.photo})` }} />
     </div>
   ) : (
-    <div className="locations-details--unselected">Please select a location.</div>
+    <div className="locations-details--unselected">Please select a restaurant for more details.</div>
   );
 
 Description.propTypes = {
