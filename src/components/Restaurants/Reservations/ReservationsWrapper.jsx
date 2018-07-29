@@ -16,9 +16,11 @@ const ReservationsWrapper = () => (
       select your chosen restaurant on a date and time of your choice and we&apos;ll do the rest.
     </p>
     <SelectLocation />
-    <SelectDate />
-    <SelectTime />
-    <SelectPeople />
+    <div className="reservations__date-time-people">
+      <SelectDate />
+      <SelectTime />
+      <SelectPeople />
+    </div>
     <CompleteReservation />
   </div>
 );

@@ -17,8 +17,8 @@ class SelectPeople extends React.Component {
 
   render() {
     return (
-      <div>
-        <p>How many people do you need a reservation for?</p>
+      <div className="reservations-people">
+        {/* <p>How many people do you need a reservation for?</p> */}
         <form>
           <input
             type="number"
@@ -27,6 +27,8 @@ class SelectPeople extends React.Component {
             step="1"
             onChange={this.handleChange}
             value={this.props.restaurants.getSelectedPeople}
+            className="reservations-people__input"
+            placeholder="Number of people"
           />
         </form>
       </div>

@@ -13,6 +13,7 @@
     text-align: center;
     font-weight: 700;
     margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .location-list {
@@ -22,7 +23,7 @@
 }
 
 .location-button {
-    margin: .5rem;
+    margin: 0 .5rem;
     background-color: transparent;
     border: 3px solid #ffbf44;
     border-radius: 50px;
@@ -45,7 +46,7 @@
 .location-button--selected {
     background-color: #ffbf44;
     color: white;
-    margin: .5rem;
+    margin: 0 .5rem;
     border: 3px solid #ffbf44;
     border-radius: 50px;
     padding: .5rem 1rem;
@@ -57,6 +58,34 @@
 }
 
 .location-button--selected:focus {
+    outline: none;
+}
+
+.reservations__date-time-people {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.reservations-people__input {
+    background-color: transparent;
+    border: 3px solid #ffbf44;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 33.6px;
+    padding-left: 1rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: .9rem;
+    width: 200px;
+}
+
+.reservations-people__input::placeholder {
+    text-align: center;
+    color: #343434;
+}
+
+.reservations-people__input:focus {
     outline: none;
 }
 
