@@ -3,16 +3,6 @@ import PropTypes from 'prop-types';
 import { observer, inject } from 'mobx-react';
 import { beautyPropType, beautyPropTypeDefaults } from '../../../stores/Beauty';
 
-// const ResultItem = () => (
-//   <div>
-//     <p>Item</p>
-//     <p>Brand</p>
-//     <p> !Logo! </p>
-//     <p>Partner</p>
-//     <p>Discount (%)</p>
-//   </div>
-// );
-
 @inject('beauty')
 @observer
 class Result extends React.Component {
@@ -38,8 +28,8 @@ class Result extends React.Component {
 Result.propTypes = {
   resultItem: PropTypes.shape({
     id: PropTypes.number,
-    brandImage: PropTypes.string,
     brandName: PropTypes.string,
+    brandImage: PropTypes.string,
     discount: PropTypes.string,
     logoPartner: PropTypes.string
   }).isRequired

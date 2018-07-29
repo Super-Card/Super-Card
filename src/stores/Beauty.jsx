@@ -1,7 +1,11 @@
-import { observable, action } from 'mobx';
+import { observable, action, computed } from 'mobx';
 import PropTypes from 'prop-types';
 
 class Beauty {
+  @computed
+  get getResultItems() {
+    return this.resultItems;
+  }
   @observable
   resultItems = [
     {
@@ -569,7 +573,16 @@ const beautyPropType = PropTypes.shape({
     discount: PropTypes.string,
     logoPartner: PropTypes.string
   }),
-  setSelectedItem: PropTypes.func
+  setSelectedItem: PropTypes.func,
+  getResultItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      brandImage: PropTypes.string,
+      brandName: PropTypes.string,
+      discount: PropTypes.string,
+      logoPartner: PropTypes.string
+    })
+  )
 });
 
 const beautyPropTypeDefaults = {

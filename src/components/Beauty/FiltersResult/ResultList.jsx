@@ -1,6 +1,6 @@
 import { observer, inject } from 'mobx-react';
 import React from 'react';
-import ResultItem from './ResultItem';
+import Result from './ResultItem';
 import { beautyPropType, beautyPropTypeDefaults } from '../../../stores/Beauty';
 
 @inject('beauty')
@@ -9,7 +9,7 @@ class ResultList extends React.Component {
   render() {
     return (
       <div>
-        {this.props.beauty.resultItems.map(resultItem => <ResultItem key={resultItem.id} resultItem={resultItem} />)}
+        {this.props.beauty.getResultItems.map(resultItem => <Result key={resultItem.id} resultItem={resultItem} />)}
       </div>
     );
   }

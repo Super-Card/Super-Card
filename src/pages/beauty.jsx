@@ -1,6 +1,7 @@
 import React from 'react';
 import Container from '../components/Beauty/Filters/Container';
 import ResultList from '../components/Beauty/FiltersResult/ResultList';
+import ResultItems from '../components/Beauty/FiltersResult/ResultItems';
 import '../components/Beauty/Filters/BeautyFilters.css';
 import '../components/Beauty/FiltersResult/BeautyFiltersResult.css';
 
@@ -14,6 +15,7 @@ const Beauty = () => (
     </p>
     <Container />
     <ResultList />
+    <ResultItems />
   </div>
 );
 
