@@ -1,8 +1,9 @@
 import React from 'react';
 import { observer, inject } from 'mobx-react';
+import { techPropType, techPropTypeDefaults } from '../../../stores/Tech';
 import ListItems from './ListItems';
 import ItemDetail from './ItemDetail';
-import { techPropType, techPropTypeDefaults } from '../../../stores/Tech';
+import './categories.css';
 
 @inject('tech')
 @observer
