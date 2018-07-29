@@ -2,6 +2,7 @@ import { observable, action, computed } from 'mobx';
 import PropTypes from 'prop-types';
 
 class Restaurants {
+  // Locations
   @computed
   get getLocations() {
     return this.locations;
@@ -53,7 +54,6 @@ class Restaurants {
     }
   ];
 
-  // Restaurants
   @observable selectedLocation = {};
 
   @action

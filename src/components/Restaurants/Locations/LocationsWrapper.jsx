@@ -14,8 +14,9 @@ class LocationsWrapper extends React.Component {
         <div className="restaurants-intro">
           <h1>Restaurants</h1>
           <p>
-            SuperCard promises foodies a way to save money on restaurant bills. Call ahead to reserve a table, mention
-            you are a cardholder and then, when you pay, show the card and a discount will be applied accordingly.
+            SuperCard promises foodies a way to save money on restaurant bills. Book a table below, mention you are a
+            cardholder at the restaurant and then, when you pay, show the card and a discount will be applied
+            accordingly. Here are the locations where we offer discounts at.
           </p>
         </div>
         <div className="locations-container">

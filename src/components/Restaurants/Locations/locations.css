@@ -6,12 +6,24 @@
     margin: auto;
 }
 
+.restaurants-intro {
+    width: 1150px;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.restaurants-intro h1 {
+    text-align: left;
+}
+
+/* ListItems */
 .locations-list {
     display: flex;
     flex-direction: column;
     width: 200px;
 }
 
+/* Item */
 .locations-list__item {
     width: 200px;
     height: 50px;
@@ -32,6 +44,7 @@
     transition: background-color .25s;
 }
 
+/* Description */
 .locations-details {
     width: auto;
     display: flex;
@@ -61,14 +74,4 @@
 .locations-details--unselected {
     padding: 1rem;
     font-size: 1.5rem;
-}
-
-.restaurants-intro {
-    width: 1150px;
-    margin: auto;
-    padding-top: 2rem;
-}
-
-.restaurants-intro h1 {
-    text-align: left;
 }

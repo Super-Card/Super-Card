@@ -9,11 +9,12 @@
     text-align: left;
 }
 
+/* SelectLocation */
 .location-text {
     text-align: center;
     font-weight: 700;
     margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .location-list {
@@ -61,19 +62,22 @@
     outline: none;
 }
 
+/* SelectDate, SelectTime, SelectPeople containers */
 .reservations__date-time-people {
     display: flex;
     justify-content: center;
     margin: 2rem;
 }
 
+/* SelectPeople */
 .reservations-people__input {
     background-color: transparent;
     border: 3px solid #ffbf44;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     height: 33.6px;
-    padding-left: 1rem;
+    text-align: center;
+    padding-left: 0.5rem; 
     cursor: pointer;
     font-family: inherit;
     font-size: .9rem;
@@ -89,6 +93,7 @@
     outline: none;
 }
 
+/* CompleteReservation */
 .reservation-complete {
     display: flex;
     justify-content: center;
@@ -154,6 +159,7 @@
     background-color: #a5a5a57a;
 }
 
+/* ConfirmationModal */
 .confirmation-modal-bcg {
     width: 100%;
     height: 100vh;
@@ -167,13 +173,14 @@
     position: absolute;
     background: white;
     box-shadow: 0 0 10px rgb(119, 119, 119);
-    top: 40vh;
     padding: 3rem;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 530px;
+    height: 300px;
+    margin: auto;
     left: 0;
     right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .confirmation-close {
@@ -184,5 +191,6 @@
 
 .confirmation-title {
     margin: 0;
+    margin-bottom: 2rem;
     text-align: center;
 }
