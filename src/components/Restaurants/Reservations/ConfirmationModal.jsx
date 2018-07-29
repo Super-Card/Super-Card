@@ -24,7 +24,8 @@ class ConfirmationModal extends React.Component {
           <p>Reservation number: {Math.floor(Math.random() * 1000) + 5000}</p>
           <p>
             You have a reservation at {this.props.restaurants.getReservedRestaurant.name} on{' '}
-            {this.props.restaurants.getSelectedDate.toLocaleDateString('en-US')} at pm for{' '}
+            {this.props.restaurants.getSelectedDate.toLocaleDateString('en-US')} at{' '}
+            {`${this.props.restaurants.getSelectedTime.hour}:${this.props.restaurants.getSelectedTime.minute}`} for{' '}
             {this.props.restaurants.getSelectedPeople}{' '}
             {this.props.restaurants.getSelectedPeople === '1' ? 'person' : 'people'}.
           </p>

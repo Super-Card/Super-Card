@@ -88,6 +88,23 @@ class Restaurants {
     this.selectedDate = date;
   }
 
+  // SelectTime
+  @observable
+  selectedTime = {
+    hour: '',
+    minute: ''
+  };
+
+  @computed
+  get getSelectedTime() {
+    return this.selectedTime;
+  }
+
+  @action
+  setSelectedTime(time) {
+    this.selectedTime = time;
+  }
+
   // SelectPeople
   @observable selectedPeople = '';
 
@@ -106,6 +123,7 @@ class Restaurants {
   resetReservation() {
     this.setReservedRestaurant({});
     this.setSelectedDate();
+    this.setSelectedTime({});
     this.setSelectedPeople('');
   }
 
@@ -165,6 +183,15 @@ const restaurantsPropType = PropTypes.shape({
   selectedPeople: PropTypes.string,
   getSelectedPeople: PropTypes.string,
   setSelectedPeople: PropTypes.func,
+  selectedTime: PropTypes.shape({
+    hour: PropTypes.string,
+    minute: PropTypes.string
+  }),
+  getSelectedTime: PropTypes.shape({
+    hour: PropTypes.string,
+    minute: PropTypes.string
+  }),
+  setSelectedTime: PropTypes.func,
   resetReservation: PropTypes.func,
   showModal: PropTypes.bool,
   getModalState: PropTypes.bool,
@@ -182,6 +209,9 @@ const restaurantsPropTypeDefaults = {
   selectedDate: {},
   getSelectedDate: {},
   setSelectedDate: () => true,
+  selectedTime: {},
+  getSelectedTime: {},
+  setSelectedTime: () => true,
   selectedPeople: '',
   getSelectedPeople: '',
   setSelectedPeople: () => true,
