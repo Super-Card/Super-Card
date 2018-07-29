@@ -60,6 +60,12 @@
     outline: none;
 }
 
+.reservations-datetime {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
 .reservation-complete {
     display: flex;
     justify-content: center;
