@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../components/Beauty/Filters/Container';
 import ResultList from '../components/Beauty/FiltersResult/ResultList';
 import ResultItems from '../components/Beauty/FiltersResult/ResultItems';
+import PaginationNav from '../components/Beauty/Pagination/PaginationNav';
 import '../components/Beauty/Filters/BeautyFilters.css';
 import '../components/Beauty/FiltersResult/BeautyFiltersResult.css';
 
@@ -16,6 +17,7 @@ const Beauty = () => (
     <Container />
     <ResultList />
     <ResultItems />
+    <PaginationNav />
   </div>
 );
 

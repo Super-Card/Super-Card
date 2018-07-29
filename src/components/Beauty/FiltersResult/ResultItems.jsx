@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 const ResultItems = ({ resultItems }) =>
   resultItems.brandName ? (
     <div>
-      <img className="brand-img" src={resultItems.brandImage} alt="Brand" />
-      <img className="discount-percent" src={resultItems.discount} alt="Discount" />
-      <img className="logo-partner" src={resultItems.logoPartner} alt="Logo" />
+      <img className="brand-img" format="png" pngSize={64} basePath="{resultItems.brandImage}" alt="brand" />
+      <img className="discount-percent" format="png" pngSize={64} basePath="{resultItems.discount}" alt="discount" />
+      <img className="logo-partner" format="png" pngSize={64} basePath="{resultItems.logoPartner}" alt="Logo" />
     </div>
   ) : (
     <div>Renegotiated</div>

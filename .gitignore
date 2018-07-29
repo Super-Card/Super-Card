@@ -3,4 +3,5 @@ bundle.js
 yarn-debug.*
 .vscode/
 yarn-lock.json
+yarn-error.log
 tsconfig.json
