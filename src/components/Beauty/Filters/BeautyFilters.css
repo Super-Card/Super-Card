@@ -1,8 +1,12 @@
 .beauty-intro {
     width: 85%;
     margin: auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    width: 1150px;
+}
+
+.beauty-intro h1 {
+    display: inline-block;
+    padding-top: 2rem;
 }
 
 .beauty-filter-area {
@@ -14,7 +18,7 @@
     width: 100%;
     z-index: 99;
     position: absolute;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-top: 1.5%;
 }
 
