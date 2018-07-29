@@ -22,7 +22,7 @@
     padding-top: 1.5%;
 }
 
-h3 {
+.beauty-filters h3 {
     color: white;
     font-size: 16px;
     font-style: bold;
@@ -33,7 +33,7 @@ h3 {
     width: 160px;
 }
 
-label {
+.beauty-filters label {
     display: block;
     color: #092B75;
     font-size: 14px bold;

@@ -2,7 +2,7 @@ import React from 'react';
 import './BeautyFilters.css';
 
 const Discounts = () => (
-  <div>
+  <div className="beauty-filters">
     <h3>Discount</h3>
     <label>
       <input type="checkbox" name="10%" id="10%" value="10%" />10%
