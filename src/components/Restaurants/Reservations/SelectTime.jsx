@@ -9,7 +9,7 @@ import { restaurantsPropType, restaurantsPropTypeDefaults } from '../../../store
 class SelectTime extends React.Component {
   constructor(props) {
     super(props);
-    
+
     this.onTimeChange = this.onTimeChange.bind(this);
   }
 
@@ -18,7 +18,7 @@ class SelectTime extends React.Component {
 
     this.props.restaurants.setSelectedTime({ hour, minute });
   }
-  
+
   render() {
     return (
       <div>
@@ -35,7 +35,7 @@ class SelectTime extends React.Component {
           time={
             this.props.restaurants.getSelectedTime.hour && this.props.restaurants.getSelectedTime.minute
               ? `${this.props.restaurants.getSelectedTime.hour}:${this.props.restaurants.getSelectedTime.minute}`
-              : null
+              : 'select time'
           }
         />
       </div>

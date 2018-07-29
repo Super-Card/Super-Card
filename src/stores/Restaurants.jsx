@@ -123,6 +123,7 @@ class Restaurants {
   resetReservation() {
     this.setReservedRestaurant({});
     this.setSelectedDate();
+    this.setSelectedTime({});
     this.setSelectedPeople('');
   }
 
