@@ -34,3 +34,16 @@
     font-size: 1.4em;
     text-align: center;
 }
+.category-header{
+    margin-left: 85px;
+    border: 1px solid #1C51C2;
+    width: 245px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.heading-container{
+    display: flex;
+}
+.discount-heading{
+    margin: auto;
+}
