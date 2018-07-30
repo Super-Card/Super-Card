@@ -42,6 +42,7 @@
     padding: 1px;
     border: solid 1px #FFBF44;
     background-color: #FFFFFC;
+    cursor: pointer;
 }
 
 .human-body-img {
@@ -53,5 +54,4 @@
 
 .human-body-img-categories {
     cursor: pointer;
-    position: relative;
 }
