@@ -69,7 +69,6 @@
   top: 15px;
   left: 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-
   opacity: 0;
   z-index: -1;
   visibility: hidden;
