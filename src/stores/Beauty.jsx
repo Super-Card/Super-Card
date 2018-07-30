@@ -1,9 +1,14 @@
 import { observable, action, computed } from 'mobx';
+import { intersection } from 'lodash';
 import PropTypes from 'prop-types';
 
 class Beauty {
   @computed
   get getResultItems() {
+    if (this.filters.length) {
+      return this.resultItems.filter(i => i.tags && intersection(i.tags, this.filters).length > 0);
+    }
+
     return this.resultItems;
   }
   @observable
@@ -13,7 +18,8 @@ class Beauty {
       brandImage: '../../assets/beauty/dr-jacksons.png',
       brandName: 'Dr Jacksons',
       discount: '../../assets/beauty/percent_10.png',
-      logoPartner: '../../assets/beauty/logo-beauty-zone.png'
+      logoPartner: '../../assets/beauty/logo-beauty-zone.png',
+      tags: ['20%', 'dm']
     },
     {
       id: 2,
@@ -550,9 +556,18 @@ class Beauty {
   ];
 
   @observable selectedItem = {};
+  @observable filters = [];
   @action
   setSelectedItem(resultItem) {
     this.selectedItem = resultItem;
+  }
+  @action
+  setFilter(filter) {
+    this.filters.push(filter);
+  }
+  @action
+  resetFilters() {
+    this.filters = [];
   }
 }
 
@@ -582,14 +597,20 @@ const beautyPropType = PropTypes.shape({
       discount: PropTypes.string,
       logoPartner: PropTypes.string
     })
-  )
+  ),
+  filters: PropTypes.arrayOf(PropTypes.string),
+  setFilter: PropTypes.func,
+  resetFilters: PropTypes.func
 });
 
 const beautyPropTypeDefaults = {
   resultItems: [],
   selectedItem: {},
   getResultItems: [],
-  setSelectedItem: () => true
+  setSelectedItem: () => true,
+  filters: [],
+  setFilter: () => true,
+  resetFilters: () => true
 };
 
 export { Beauty, beautyPropType, beautyPropTypeDefaults };
