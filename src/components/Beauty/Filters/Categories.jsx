@@ -41,3 +41,11 @@ export default class Categories extends React.Component {
     );
   }
 }
+
+Categories.wrappedComponent.propTypes = {
+  beauty: beautyPropType
+};
+
+Categories.wrappedComponent.defaultProps = {
+  beauty: beautyPropTypeDefaults
+};

@@ -29,3 +29,10 @@ export default class Discounts extends React.Component {
     );
   }
 }
+Discounts.wrappedComponent.propTypes = {
+  beauty: beautyPropType
+};
+
+Discounts.wrappedComponent.defaultProps = {
+  beauty: beautyPropTypeDefaults
+};

@@ -32,3 +32,10 @@ export default class Gender extends React.Component {
     );
   }
 }
+Gender.wrappedComponent.propTypes = {
+  beauty: beautyPropType
+};
+
+Gender.wrappedComponent.defaultProps = {
+  beauty: beautyPropTypeDefaults
+};
