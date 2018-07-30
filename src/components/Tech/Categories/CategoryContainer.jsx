@@ -12,7 +12,7 @@ class CategoryContainer extends React.Component {
     return (
       <div className="category-container">
         <ListItems />
-        <ItemDetail category={this.props.tech.selectedItem} />
+        <ItemDetail item={this.props.tech.selectedItem} />
       </div>
     );
   }
