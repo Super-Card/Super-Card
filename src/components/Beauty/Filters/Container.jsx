@@ -7,7 +7,7 @@ import Categories from './Categories';
 import './BeautyFilters.css';
 
 const Container = () => (
-  <div className="beauty-filter-area">
+  <div>
     <div className="beauty-filter-area-left">
       <Gender />
       <Partners />
