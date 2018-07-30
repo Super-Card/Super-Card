@@ -2,7 +2,7 @@ import React from 'react';
 import TimePicker from 'react-times';
 import { observer, inject } from 'mobx-react';
 import { restaurantsPropType, restaurantsPropTypeDefaults } from '../../../stores/Restaurants';
-import './css/classic/default.css';
+import './timepicker.css';
 
 @inject('restaurants')
 @observer
