@@ -1,8 +1,8 @@
 import React from 'react';
 import DayPickerInput from 'react-day-picker/DayPickerInput';
-import 'react-day-picker/lib/style.css';
 import { observer, inject } from 'mobx-react';
 import { restaurantsPropType, restaurantsPropTypeDefaults } from '../../../stores/Restaurants';
+import './daypicker.css';
 
 @inject('restaurants')
 @observer
