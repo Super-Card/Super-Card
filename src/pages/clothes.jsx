@@ -12,7 +12,7 @@ const Clothes = () => (
       <Brands />
       <Location />
       <Discaunt />
-	  	  <shopper />
+      <shopper />
     </div>
 
     <div className="filtered-shops">
