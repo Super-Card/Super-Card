@@ -30,7 +30,8 @@ class RequestForm extends React.Component {
   }
   render() {
     return (
-      <form>
+      <form className="request-form">
+        <h2 className="request-heading">Request your SuperCard today!</h2>
         <input
           type="text"
           name="name"
@@ -38,6 +39,7 @@ class RequestForm extends React.Component {
           // value={this.state.user.name}
           placeholder="Your name"
         />
+        <br />
         <input
           type="email"
           name="email"
@@ -45,15 +47,17 @@ class RequestForm extends React.Component {
           // value={this.state.user.email}
           placeholder="Your email"
         />
+        <br />
         <textarea
           name="text"
           onChange={this.handleInputTextChange}
-          cols="30"
+          cols="45"
           rows="5"
           // value={this.state.user.text}
           placeholder="Write message.."
         />
-        <input type="submit" value="Submit" onClick={this.saveUser} />
+        <br />
+        <input className="btn-submit" type="submit" value="Submit" onClick={this.saveUser} />
       </form>
     );
   }
