@@ -8,16 +8,16 @@ const Brands = () => (
       <input type="checkbox" name="Armani" id="Armani" value="Armani" />Armani
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="Armani" id="Armani" value="Armani" />Versace
+      <input type="checkbox" name="Versace" id="Versace" value="Versace" />Versace
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="Armani" id="Armani" value="Armani" />Dolce & Gabbana
+      <input type="checkbox" name="Dolce" id="Dolce" value="Dolce and Gabbana" />Dolce & Gabbana
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="Armani" id="Armani" value="Armani" />Hugo Boss
+      <input type="checkbox" name="Boss" id="Boss" value="Hugo Boss" />Hugo Boss
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="Armani" id="Armani" value="Armani" />Prada
+      <input type="checkbox" name="Prada" id="Prada" value="Prada" />Prada
     </div>
   </div>
 );
