@@ -3,7 +3,7 @@ import HeadingImage from '../components/Home/HeadingImage';
 import RequestForm from '../components/Home/RequestForm';
 
 const Home = () => (
-  <div>
+  <div className="content-home">
     <HeadingImage />
     <RequestForm />
   </div>
