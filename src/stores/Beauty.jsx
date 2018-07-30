@@ -26,8 +26,7 @@ class Beauty {
       brandImage: '../../assets/beauty/clarins.png',
       brandName: 'Clarins',
       discount: '../../assets/beauty/percent_15.png',
-      logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-      
+      logoPartner: '../../assets/beauty/logo-beauty-zone.png'
     },
     {
       id: 3,
