@@ -20,6 +20,9 @@ class Result extends React.Component {
     return (
       <div className="result-list-item" onClick={() => this.handleItemSelect(this.props.resultItem)}>
         {this.props.resultItem.brandName}
+        <img className="brand-img" src={this.props.resultItem.brandImage} alt="" />
+        <img className="discount-percent" src={this.props.resultItem.discount} alt="" />
+        <img className="logo-partner" src={this.props.resultItem.logoPartner} alt="" />
       </div>
     );
   }

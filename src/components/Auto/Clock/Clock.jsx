@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './clock.css';
 
 class Clock extends Component {
@@ -46,4 +47,11 @@ class Clock extends Component {
   }
 }
 
+Clock.propTypes = {
+  deadline: PropTypes.string
+};
+
+Clock.defaultProps = {
+  deadline: {}
+};
 export default Clock;
