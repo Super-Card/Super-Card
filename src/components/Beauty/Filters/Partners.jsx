@@ -53,3 +53,10 @@ export default class Partners extends React.Component {
     );
   }
 }
+Partners.wrappedComponent.propTypes = {
+  beauty: beautyPropType
+};
+
+Partners.wrappedComponent.defaultProps = {
+  beauty: beautyPropTypeDefaults
+};

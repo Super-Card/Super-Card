@@ -19,14 +19,15 @@ class Beauty {
       brandName: 'Dr Jacksons',
       discount: '../../assets/beauty/percent_10.png',
       logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-      tags: ['20%', 'dm']
+      tags: ['10%', 'beautyzone', 'male', 'female', 'face']
     },
     {
       id: 2,
       brandImage: '../../assets/beauty/clarins.png',
       brandName: 'Clarins',
       discount: '../../assets/beauty/percent_15.png',
-      logoPartner: '../../assets/beauty/logo-beauty-zone.png'
+      logoPartner: '../../assets/beauty/logo-beauty-zone.png',
+      
     },
     {
       id: 3,
@@ -152,7 +153,8 @@ class Beauty {
       brandImage: '../../assets/beauty/dr-jacksons.png',
       brandName: 'Dr Jacksons',
       discount: '../../assets/beauty/percent_10.png',
-      logoPartner: '../../assets/beauty/logo-sephora.png'
+      logoPartner: '../../assets/beauty/logo-sephora.png',
+      tags: ['10%', 'sephora', 'male', 'female', 'face']
     },
     {
       id: 21,
@@ -285,7 +287,8 @@ class Beauty {
       brandImage: '../../assets/beauty/dr-jacksons.png',
       brandName: 'Dr Jacksons',
       discount: '../../assets/beauty/percent_10.png',
-      logoPartner: '../../assets/beauty/logo-douglas.png'
+      logoPartner: '../../assets/beauty/logo-douglas.png',
+      tags: ['10%', 'douglas', 'male', 'female', 'face']
     },
     {
       id: 40,
@@ -390,7 +393,8 @@ class Beauty {
       brandImage: '../../assets/beauty/dr-jacksons.png',
       brandName: 'Dr Jacksons',
       discount: '../../assets/beauty/percent_10.png',
-      logoPartner: '../../assets/beauty/logo-dm.png'
+      logoPartner: '../../assets/beauty/logo-dm.png',
+      tags: ['10%', 'dm', 'male', 'female', 'face']
     },
     {
       id: 55,
