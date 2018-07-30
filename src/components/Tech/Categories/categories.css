@@ -35,11 +35,10 @@
     text-align: center;
 }
 .category-header{
-    margin-left: 85px;
-    border: 1px solid #1C51C2;
+    margin-left: 6%;
+    border-bottom: 1px solid #1C51C2;
     width: 245px;
     padding: 5px;
-    border-radius: 5px;
 }
 .heading-container{
     display: flex;
