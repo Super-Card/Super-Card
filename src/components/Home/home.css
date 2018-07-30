@@ -49,3 +49,35 @@
     background-color: rgb(51, 34, 3);
     cursor: pointer;
 }
+/* form styling */
+.request-form{
+    text-align: center;
+    background-color: #1C51C2;
+    width: 100%;
+    padding: 5px 55px 55px 55px;
+}
+input[type=text], input[type=email],textarea{
+    width: 39%;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 1.3em;
+    margin-bottom: 21px;
+    border: 3px solid orange;
+}
+.btn-submit{
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 1.7em;
+    padding: 15px 60px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.btn-submit:hover{
+    cursor: pointer;
+    background-color: #B1B8C8;;
+}
+.request-heading{
+    color: white;
+    font-size: 2.2em;
+}
