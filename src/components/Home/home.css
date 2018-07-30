@@ -1,0 +1,11 @@
+.head-image{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-size: 3em;
+    padding-top: 31%;
+    padding-left: 6%;
+    text-shadow: 2px 2px 3px orange;
+}

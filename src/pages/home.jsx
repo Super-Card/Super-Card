@@ -1,8 +1,9 @@
 import React from 'react';
+import HeadingImage from '../components/Home/HeadingImage';
 
 const Home = () => (
   <div>
-    <p>Hello from Home</p>
+    <HeadingImage />
   </div>
 );
 
