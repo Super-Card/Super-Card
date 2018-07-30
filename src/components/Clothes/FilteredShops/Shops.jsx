@@ -1,6 +1,8 @@
 import React from 'react';
 import './Shops.css';
 
+
+
 const Shops = () => (
   <div className="shop-box">
     <div className="row">

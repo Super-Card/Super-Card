@@ -4,6 +4,7 @@ import Location from '../components/Clothes/ShopFilter/Location/Location';
 import Discaunt from '../components/Clothes/ShopFilter/Discaunt/Discaunt';
 import '../components/Clothes/ShopFilter/Clothes-Style/Clothes.css';
 import Shops from '../components/Clothes/FilteredShops/Shops';
+import shopper from '../components/Clothes/ShopFilter/Brands/Brands';
 
 const Clothes = () => (
   <div className="content-wrapper">
@@ -11,6 +12,7 @@ const Clothes = () => (
       <Brands />
       <Location />
       <Discaunt />
+	  	  <shopper />
     </div>
 
     <div className="filtered-shops">
