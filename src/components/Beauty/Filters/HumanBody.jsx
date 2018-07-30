@@ -6,6 +6,7 @@ const HumanBody = () => (
     <img src="assets/beauty/human-body.png" alt="human body" useMap="#human-body" />
     <map name="human-body" id="human-body">
       <area
+        id="area-hair"
         alt="hair"
         shape="poly"
         href="#"
@@ -17,6 +18,7 @@ const HumanBody = () => (
         468,75,470,74,470,83,470,88,467,89"
       />
       <area
+        id="area-face"
         alt="face"
         shape="poly"
         href="#"
@@ -25,6 +27,7 @@ const HumanBody = () => (
         455,56,449,56,442,58,438,67,434,74,431,78,428,84,427,88"
       />
       <area
+        id="area-body"
         alt="body"
         shape="poly"
         href="#"

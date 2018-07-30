@@ -9,17 +9,13 @@
     padding-top: 2rem;
 }
 
-.beauty-filter-area {
-    background-color: rgba(229, 229, 229, 0.432);
-    z-index: -1;
-}
 
 .beauty-filter-area-left {
-    width: 100%;
     z-index: 99;
     position: absolute;
-    padding-left: 3%;
+    padding-left: 150px;
     padding-top: 0px;
+    overflow: auto;
 }
 
 .beauty-filters h3 {
@@ -48,10 +44,14 @@
 .human-body-img {
     z-index: 10;
     position: relative;
-    width: 55%;
     margin: auto;
+    text-align: center;
 }
 
 .human-body-img-categories {
     cursor: pointer;
+    opacity: 0;
+}
+.human-body-img-categories #area-body:hover {
+    opacity: 0.2;
 }

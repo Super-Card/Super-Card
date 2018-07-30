@@ -4,11 +4,11 @@ import './BeautyFilters.css';
 const Gender = () => (
   <div className="beauty-filters">
     <h3>Gender</h3>
-    <label>
+    <label htmlFor="male">
       <input type="checkbox" name="male" id="male" value="male" />Male
     </label>
-    <label>
-      <input type="checkbox" name="male" id="male" value="female" />Female
+    <label htmlFor="female">
+      <input type="checkbox" name="female" id="female" value="female" />Female
     </label>
   </div>
 );
