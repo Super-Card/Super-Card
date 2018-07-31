@@ -15,18 +15,19 @@
 
 .head-title {
     position: relative;
-    top: 65vh;
+    top: 68vh;
     width: 1150px;
     margin: auto;
     color: white;
     font-size: 3rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
-    text-align: left;
+    text-align: center;
 }
 
 .head-subtitle {
     position: relative;
-    top: 65vh;
+    top: 70vh;
+    text-align: center;
     width: 1150px;
     margin: auto;
     color: white;
@@ -36,15 +37,17 @@
 
 .head-cta {
     position: relative;
-    top: 70vh;
+    top: 75vh;
     width: 1150px;
     margin: auto;
     overflow: hidden;
 }
 
 .head-cta-btn {
-    border: none;
-    display: inline-block;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 200px;
     cursor: pointer;
     text-decoration: none;
     border-radius: 50px;
