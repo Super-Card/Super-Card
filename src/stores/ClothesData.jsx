@@ -47,19 +47,19 @@ class Malls {
   ];
 
   @observable selectedItem = {};
-  
+
   @observable filters = [];
-  
+
   @action
   setSelectedItem(resultItem) {
     this.selectedItem = resultItem;
   }
-  
+
   @action
   setFilter(filter) {
     this.filters.push(filter);
   }
-  
+
   @action
   resetFilters() {
     this.filters = [];
