@@ -38,6 +38,7 @@ class RequestForm extends React.Component {
           onChange={this.handleInputChange}
           // value={this.state.user.name}
           placeholder="Your name"
+          className="request-input"
         />
         <br />
         <input
@@ -46,6 +47,7 @@ class RequestForm extends React.Component {
           onChange={this.handleInputEmailChange}
           // value={this.state.user.email}
           placeholder="Your email"
+          className="request-input"
         />
         <br />
         <textarea
@@ -55,6 +57,7 @@ class RequestForm extends React.Component {
           rows="5"
           // value={this.state.user.text}
           placeholder="Write message.."
+          className="request-input"
         />
         <br />
         <input className="btn-submit" type="submit" value="Submit" onClick={this.saveUser} />
