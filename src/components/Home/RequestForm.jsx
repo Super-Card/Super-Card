@@ -72,7 +72,7 @@ class RequestForm extends React.Component {
         </form>
         <div className={containerClass}>
           <h1> Your request is accepted! </h1>
-          <p className="modal-description">We will get in tuch with you in a 24 hours to set-up delivery.</p>
+          <p className="modal-description">We will get in touch with you in a 24 hours to set-up delivery.</p>
         </div>
 
         <div className={coverClass} onClick={this.modalToggle} />
