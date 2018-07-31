@@ -71,7 +71,7 @@ class RequestForm extends React.Component {
           </button>
         </form>
         <div className={containerClass}>
-          <h1> Your request is accepted! </h1>
+          <h1 className="modal_heading"> Your request is accepted! </h1>
           <p className="modal-description">We will get in touch with you in 24 hours to set-up delivery.</p>
         </div>
 
