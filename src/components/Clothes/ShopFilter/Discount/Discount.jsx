@@ -1,9 +1,9 @@
 import React from 'react';
-import './Discaunt.css';
+import './Discount.css';
 
-const Discaunt = () => (
-  <div className="discaunt-box">
-    <h2>Discaunt:</h2>
+const Discount = () => (
+  <div className="discount-box">
+    <h2>Discount:</h2>
     <div className="input-holder">
       <input type="checkbox" name="10%" id="10%" value="10%" />10%
     </div>
@@ -22,4 +22,4 @@ const Discaunt = () => (
   </div>
 );
 
-export default Discaunt;
+export default Discount;
