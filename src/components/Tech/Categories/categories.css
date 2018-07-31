@@ -39,11 +39,11 @@
     margin-left: 35%;
 }
 .item-wrapper{
-    width: 40%;
+    width: 26%;
     text-align: center;
 }
 .info-title{
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .info-descfription{
     font-size: 2em;
@@ -51,11 +51,11 @@
     line-height: 1.5em;
 }
 .info-img{
-    width: 407px;
-    height: 345px;
+    width: 470px;
+    height: 375px;
     background-position: center;
     background-size: cover;
-    margin-left: 70px;
+    margin-left: 225px;
 }
 .category-header{
     margin-left: 6%;
