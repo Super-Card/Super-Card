@@ -4,8 +4,13 @@ import PropTypes from 'prop-types';
 class Malls {
   @computed
   get getResultItems() {
-    return this.resultItems;
+    if (this.filters && this.filters.length) {
+      return this.resultItems;
+    }
+
+    return [];
   }
+
   @observable
   resultItems = [
     {
@@ -67,6 +72,7 @@ class Malls {
 }
 
 const mallPropType = PropTypes.shape({
+  resetFilters: PropTypes.arrayOf(PropTypes.string),
   resultItems: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number,
@@ -93,6 +99,7 @@ const mallPropType = PropTypes.shape({
 });
 
 const mallPropTypeDefaults = {
+  filters: [],
   resultItems: [],
   selectedItem: {},
   getResultItems: [],

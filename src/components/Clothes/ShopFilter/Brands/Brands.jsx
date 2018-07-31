@@ -1,6 +1,5 @@
 import React from 'react';
-import { observer, inject } from 'mobx-react';
-import { mallPropType, mallPropTypeDefaults } from '../../../../stores/ClothesData';
+// import { mallPropType } from '../../../../stores/ClothesData';
 
 import './Brands.css';
 
