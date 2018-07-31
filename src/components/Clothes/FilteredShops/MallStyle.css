@@ -8,7 +8,7 @@
 	display: flex;
 }
  
-.result-list-item {
+.result-list-mall {
     padding: 0 10px;
     text-align: center;
     width: 200px;
@@ -20,7 +20,7 @@
 
 
  
- .discount-percent {
+ .discount-mall {
     width: 50px;
     height: 50px;
     z-index: 99;
