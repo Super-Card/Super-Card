@@ -7,31 +7,31 @@ export class Tech {
     {
       id: 1,
       title: 'Cameras',
-      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      text: 'Technomarket-30% Technopolis-20% Media Markt-10% InterTecno-10% Electronica-10%',
       photo: '../../assets/tech/camera.png'
     },
     {
       id: 2,
       title: 'Mobile',
-      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      text: 'Electronica-15% InterTecno-20% Media Markt-5% Technopolis-10% Technomarket-20%',
       photo: '../../assets/tech/mobile.png'
     },
     {
       id: 3,
       title: 'Laptops',
-      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      text: 'Technomarket-30% Technopolis-20% Media Markt-10% InterTecno-10% Electronica-10%',
       photo: '../../assets/tech/laptops.png'
     },
     {
       id: 4,
       title: 'Audio',
-      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      text: 'Electronica-15% InterTecno-20% Media Markt-5% Technopolis-10% Technomarket-20%',
       photo: '../../assets/tech/audio.png'
     },
     {
       id: 5,
       title: 'TV',
-      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      text: 'Technomarket-20% Technopolis-10% Media Markt-20% InterTecno-10% Electronica-30%',
       photo: '../../assets/tech/tv.png'
     }
   ];

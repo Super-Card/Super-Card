@@ -26,11 +26,11 @@ class RequestForm extends React.Component {
   }
   saveUser(event) {
     event.preventDefault();
-    //  alert('Your sumbition is sucessful!');
+    this.refs.form.reset();
   }
   render() {
     return (
-      <form className="request-form">
+      <form className="request-form" ref="form">
         <h2 className="request-heading">Request your SuperCard today!</h2>
         <input
           type="text"
