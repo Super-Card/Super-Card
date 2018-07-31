@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 
 const HeadingImage = () => (
-  <div>
+  <div className="head-wrapper">
     <div className="head-image">
       <p className="head-text">Get SuperCard and save money now!</p>
       <div className="head-cta">

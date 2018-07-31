@@ -1,3 +1,7 @@
+.head-wrapper {
+    height: calc(90vh - 80px);
+}
+
 .head-image {
     background-image: url('http://localhost:8080/assets/home/heading-pic.jpg');
     width: 100%;
@@ -6,13 +10,12 @@
     background-size: cover;
     position: relative;
     top: -80px;
-    z-index: -1;
     overflow: hidden;
 }
 
 .head-text {
     position: relative;
-    top: 70vh;
+    top: 65vh;
     width: 1150px;
     margin: auto;
     color: white;
@@ -23,10 +26,9 @@
 
 .head-cta {
     position: relative;
-    top: calc(70vh + 2rem);
+    top: 70vh;
     width: 1150px;
     margin: auto;
-    z-index: 0;
     overflow: hidden;
 }
 
@@ -46,9 +48,14 @@
 }
 
 .head-cta-btn:hover {
-    background-color: rgb(51, 34, 3);
-    cursor: pointer;
+    background-color: rgb(252, 196, 92);
 }
+
+.head-cta-btn:focus,
+.btn-submit:focus {
+    outline: none;
+}
+
 /* form styling */
 .request-form{
     text-align: center;
@@ -56,14 +63,21 @@
     width: 100%;
     padding: 5px 55px 55px 55px;
 }
-input[type=text], input[type=email],textarea{
+
+.request-input{
     width: 39%;
     padding: 8px;
     border-radius: 10px;
     font-size: 1.3em;
     margin-bottom: 21px;
-    border: 3px solid orange;
+    border: 3px solid #FFBF44;
 }
+
+.request-input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #FFBF44;
+}
+
 .btn-submit{
     border: none;
     background-color: orange;
@@ -72,11 +86,13 @@ input[type=text], input[type=email],textarea{
     padding: 15px 60px;
     border-radius: 30px;
     text-transform: uppercase;
-}
-.btn-submit:hover{
     cursor: pointer;
-    background-color: #B1B8C8;;
 }
+
+.btn-submit:hover{
+    background-color: rgb(252, 196, 92);
+}
+
 .request-heading{
     color: white;
     font-size: 2.2em;
