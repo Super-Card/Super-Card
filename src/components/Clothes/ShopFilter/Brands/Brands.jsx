@@ -8,8 +8,13 @@ const Brands = () => (
   <div className="brands-box">
     <h2>Brands:</h2>
     <div className="input-holder">
-      <input type="checkbox" name="Armani" id="Armani" value="Armani" 
-	  onClick={() => this.props.mall.setFilter('Mall Serdika')}/>Armani
+      <input
+        type="checkbox"
+        name="Armani"
+        id="Armani"
+        value="Armani"
+        onClick={() => this.props.mall.setFilter('Mall Serdika')}
+      />Armani
     </div>
     <div className="input-holder">
       <input type="checkbox" name="Versace" id="Versace" value="Versace" />Versace

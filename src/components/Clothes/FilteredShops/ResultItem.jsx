@@ -23,7 +23,7 @@ class Result extends React.Component {
       </div>
     );
   }
-  
+
   render() {
     return (
       <div className="result-list-mall" onClick={() => this.handleItemSelect(this.props.resultItem)}>
