@@ -30,7 +30,7 @@ class RequestForm extends React.Component {
   }
   render() {
     return (
-      <form className="request-form" ref="form">
+      <form className="request-form" id="request-card" ref="form">
         <h2 className="request-heading">Request your SuperCard today!</h2>
         <input
           type="text"
