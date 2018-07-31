@@ -1,11 +1,11 @@
 .head-wrapper {
-    height: calc(90vh - 80px);
+    height: calc(100vh - 80px);
 }
 
 .head-image {
     background-image: url('http://localhost:8080/assets/home/heading-pic.jpg');
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -13,15 +13,25 @@
     overflow: hidden;
 }
 
-.head-text {
+.head-title {
     position: relative;
     top: 65vh;
     width: 1150px;
     margin: auto;
     color: white;
-    font-size: 3em;
+    font-size: 3rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
-    z-index: 0;
+    text-align: left;
+}
+
+.head-subtitle {
+    position: relative;
+    top: 65vh;
+    width: 1150px;
+    margin: auto;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.671);
 }
 
 .head-cta {
@@ -34,11 +44,12 @@
 
 .head-cta-btn {
     border: none;
+    display: inline-block;
     cursor: pointer;
+    text-decoration: none;
     border-radius: 50px;
-    width: 250px;
-    height: 60px;
     background-color: #FFBF44;
+    padding: 1rem 2rem;
     color: white;
     text-transform: uppercase;
     font-weight: 700;
@@ -54,6 +65,41 @@
 .head-cta-btn:focus,
 .btn-submit:focus {
     outline: none;
+}
+
+/* about */
+.about-sc {
+    margin: 2rem 0;
+}
+
+.about-text {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.about-icons {
+    display: flex;
+    width: 1150px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.about-icons div {
+    width: 300px;
+}
+
+.about-icons p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about-icons img {
+    max-width: 100px;
+    max-height: 80px;
+    display: block;
+    margin: auto;
 }
 
 /* form styling */

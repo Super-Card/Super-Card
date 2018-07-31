@@ -21,7 +21,7 @@ const Header = () => (
           <Link to="/beauty">Beauty</Link>
           <Link to="/clothes">Clothes</Link>
           <Link to="/tech">Tech</Link>
-          <Link to="/sport">Sport</Link>
+          {/* <Link to="/sport">Sport</Link> */}
           <Link to="/restaurants">Restaurants</Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ const Header = () => (
         <Route path="/beauty" render={pages.Beauty} />
         <Route path="/clothes" render={pages.Clothes} />
         <Route path="/tech" render={pages.Tech} />
-        <Route path="/sport" render={pages.Sport} />
+        {/* <Route path="/sport" render={pages.Sport} /> */}
         <Route path="/restaurants" render={pages.Restaurants} />
         <Route render={() => <h1>Page not found</h1>} />
       </Switch>

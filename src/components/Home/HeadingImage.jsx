@@ -4,9 +4,12 @@ import './home.css';
 const HeadingImage = () => (
   <div className="head-wrapper">
     <div className="head-image">
-      <p className="head-text">Get SuperCard and save money now!</p>
+      <h1 className="head-title">Get SuperCard and save money now!</h1>
+      <p className="head-subtitle">One discounts card. Over 650 locations. Best benefit for every employee.</p>
       <div className="head-cta">
-        <button className="head-cta-btn">Get your card</button>
+        <a className="head-cta-btn" href="http://localhost:8080/#request-card">
+          Get your card
+        </a>
       </div>
     </div>
   </div>
