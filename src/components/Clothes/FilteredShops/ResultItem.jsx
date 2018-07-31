@@ -23,6 +23,16 @@ class Result extends React.Component {
       </div>
     );
   }
+  
+  render() {
+    return (
+      <div className="result-list-item" onClick={() => this.handleItemSelect(this.props.resultItem)}>
+        <div className="mall-name">{this.props.resultItem.mallName}</div>
+        <img className="mall-img" src={this.props.resultItem.mallImage} alt="" />
+        <img className="discount-percent" src={this.props.resultItem.discount} alt="" />
+      </div>
+    );
+  }
 }
 
 Result.propTypes = {

@@ -8,7 +8,7 @@ import { mallPropType, mallPropTypeDefaults } from '../../../stores/ClothesData'
 class ResultList extends React.Component {
   render() {
     return (
-      <div>
+      <div className="resulted">
         {this.props.mall.getResultItems.map(resultItem => <Result key={resultItem.id} resultItem={resultItem} />)}
       </div>
     );
