@@ -46,7 +46,9 @@
     font-size: 1.5em;
 }
 .info-descfription{
-    font-size: 1.2em;
+    font-size: 2em;
+    text-align: start;
+    line-height: 1.5em;
 }
 .info-img{
     width: 407px;
