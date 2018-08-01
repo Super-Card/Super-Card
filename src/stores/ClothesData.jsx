@@ -8,8 +8,8 @@ class Malls {
     if (this.filters.length) {
       return this.resultItems.filter(i => i.tags && intersection(i.tags, this.filters).length > 0);
     }
-      return [];
 
+    return [];
   }
 
   @observable
