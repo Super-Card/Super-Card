@@ -3,10 +3,12 @@ import { intersection } from 'lodash';
 import PropTypes from 'prop-types';
 
 class Beauty {
+  static refBody = 'body';
+
   @computed
   get getResultItems() {
     if (this.filters.length) {
-      return this.resultItems.filter(i => i.tags && intersection(i.tags, this.filters).length > 0);
+      return this.resultItems.filter(i => i.tags && intersection(i.tags, this.filters).length === this.filters.length);
     }
 
     return this.resultItems;
@@ -637,13 +639,14 @@ class Beauty {
   setSelectedItem(resultItem) {
     this.selectedItem = resultItem;
   }
+
   @action
-  setFilter(filter) {
-    this.filters.push(filter);
-  }
-  @action
-  resetFilters() {
-    this.filters = [];
+  setFilter(filter, event) {
+    if (event.target.checked) {
+      this.filters.push(filter);
+    } else {
+      this.filters.remove(filter);
+    }
   }
 }
 
@@ -675,8 +678,7 @@ const beautyPropType = PropTypes.shape({
     })
   ),
   filters: PropTypes.arrayOf(PropTypes.string),
-  setFilter: PropTypes.func,
-  resetFilters: PropTypes.func
+  setFilter: PropTypes.func
 });
 
 const beautyPropTypeDefaults = {
@@ -685,8 +687,8 @@ const beautyPropTypeDefaults = {
   getResultItems: [],
   setSelectedItem: () => true,
   filters: [],
-  setFilter: () => true,
-  resetFilters: () => true
+  filterIsChecked: () => true,
+  setFilter: () => true
 };
 
 export { Beauty, beautyPropType, beautyPropTypeDefaults };
