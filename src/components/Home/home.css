@@ -184,4 +184,8 @@
     font-size: 2em;
     text-align: center;
     padding: 20px;
+    background-color: gainsboro;
+  }
+  .modal_heading{
+    color: darkgreen;
   }

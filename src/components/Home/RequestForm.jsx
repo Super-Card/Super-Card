@@ -9,7 +9,7 @@ class RequestForm extends React.Component {
         email: '',
         text: ''
       },
-      modalOpened: false
+      modalViewed: false
     };
 
     this.handleInputChange = this.handleInputChange.bind(this);
@@ -19,7 +19,7 @@ class RequestForm extends React.Component {
 
   modalToggle(e) {
     e.preventDefault();
-    this.setState({ modalOpened: !this.state.modalOpened });
+    this.setState({ modalViewed: !this.state.modalViewed });
   }
   handleInputChange({ name, value }) {
     this.setState({ user: { name, value, ...this.state.user } });
@@ -31,8 +31,8 @@ class RequestForm extends React.Component {
     this.setState({ user: { text, value, ...this.state.user } });
   }
   render() {
-    const coverClass = this.state.modalOpened ? 'cover-modal cover-modal-active' : 'cover-modal';
-    const containerClass = this.state.modalOpened ? 'modal-wrapper modal-wrapper-active' : 'modal-container';
+    const coverClass = this.state.modalViewed ? 'cover-modal cover-modal-active' : 'cover-modal';
+    const containerClass = this.state.modalViewed ? 'modal-wrapper modal-wrapper-active' : 'modal-container';
 
     return (
       <div>
@@ -71,8 +71,8 @@ class RequestForm extends React.Component {
           </button>
         </form>
         <div className={containerClass}>
-          <h1> Your request is accepted! </h1>
-          <p className="modal-description">We will get in tuch with you in a 24 hours to set-up delivery.</p>
+          <h1 className="modal_heading"> Your request is accepted! </h1>
+          <p className="modal-description">We will get in touch with you in 24 hours to set-up delivery.</p>
         </div>
 
         <div className={coverClass} onClick={this.modalToggle} />
