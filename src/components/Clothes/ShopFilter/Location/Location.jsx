@@ -5,19 +5,25 @@ const Location = () => (
   <div className="location-box">
     <h2>Location:</h2>
     <div className="input-holder">
-      <input type="checkbox" name="10%" id="10%" value="Sofia" />Sofia
+      <input type="checkbox" name="10%" id="10%" value="Sofia" onClick={() => this.props.mall.setFilter('Sofia')} />Sofia
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="10%" id="10%" value="Plovdiv" />Plovdiv
+      <input type="checkbox" name="10%" id="10%" value="Plovdiv" onClick={() => this.props.mall.setFilter('Plovdiv')} />Plovdiv
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="10%" id="10%" value="varna" />Varna
+      <input type="checkbox" name="10%" id="10%" value="varna" onClick={() => this.props.mall.setFilter('Varna')} />Varna
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="10%" id="10%" value="Burgas" />Burgas
+      <input type="checkbox" name="10%" id="10%" value="Burgas" onClick={() => this.props.mall.setFilter('Burgas')} />Burgas
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="10%" id="10%" value="Stara Zagora" />Stara Zagora
+      <input
+        type="checkbox"
+        name="10%"
+        id="10%"
+        value="Stara Zagora"
+        onClick={() => this.props.mall.setFilter('Stara Zagora')}
+      />Stara Zagora
     </div>
   </div>
 );
