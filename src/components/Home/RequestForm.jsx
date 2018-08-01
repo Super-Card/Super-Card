@@ -17,8 +17,7 @@ class RequestForm extends React.Component {
     this.modalToggle = this.modalToggle.bind(this);
   }
 
-  modalToggle(e) {
-    e.preventDefault();
+  modalToggle() {
     this.setState({ modalViewed: !this.state.modalViewed });
   }
   handleInputChange({ name, value }) {
@@ -66,9 +65,7 @@ class RequestForm extends React.Component {
             className="request-input"
           />
           <br />
-          <button className="btn-submit" onClick={this.modalToggle}>
-            Submit
-          </button>
+          <input type="reset" value="Submit" className="btn-submit" onClick={this.modalToggle} />
         </form>
         <div className={containerClass}>
           <h1 className="modal_heading"> Your request is accepted! </h1>
