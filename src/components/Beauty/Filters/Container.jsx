@@ -3,7 +3,6 @@ import Gender from './Gender';
 import Partners from './Partners';
 import Discounts from './Discounts';
 import HumanBody from './HumanBody';
-import Categories from './Categories';
 import './BeautyFilters.css';
 
 const Container = () => (
@@ -12,7 +11,6 @@ const Container = () => (
       <Gender />
       <Partners />
       <Discounts />
-      <Categories />
     </div>
     <div>
       <HumanBody />

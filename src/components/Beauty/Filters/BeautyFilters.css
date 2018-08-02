@@ -51,3 +51,18 @@
 .human-body-img-categories {
     cursor: pointer;
 }
+
+.tags {
+  padding-left: 50px;
+}
+
+.tag {
+  display: inline-block;
+  color: #0d0a03;
+  background-color: #ffbf44;
+  border: 2px solid #ff9d09;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: center;
+}

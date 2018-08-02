@@ -9,7 +9,17 @@ class ResultList extends React.Component {
   render() {
     return (
       <div>
-        {this.props.beauty.getResultItems.map(resultItem => <Result key={resultItem.id} resultItem={resultItem} />)}
+        <div className="tags">
+          {this.props.beauty.filters.length > 0 ? 'Tags: ' : ''}
+          {this.props.beauty.filters.map(tag => (
+            <span key={tag} className="tag">
+              {tag}
+            </span>
+          ))}
+        </div>
+        <div>
+          {this.props.beauty.getResultItems.map(resultItem => <Result key={resultItem.id} resultItem={resultItem} />)}
+        </div>
       </div>
     );
   }
