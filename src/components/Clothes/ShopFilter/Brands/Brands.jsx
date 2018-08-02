@@ -16,16 +16,34 @@ const Brands = () => (
       />Armani
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="Versace" id="Versace" value="Versace" />Versace
+      <input
+        type="checkbox"
+        name="Versace"
+        id="Versace"
+        value="Versace"
+        onClick={() => this.props.mall.setFilter('Versace')}
+      />Versace
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="Dolce" id="Dolce" value="Dolce and Gabbana" />Dolce & Gabbana
+      <input
+        type="checkbox"
+        name="Dolce"
+        id="Dolce"
+        value="Dolce and Gabbana"
+        onClick={() => this.props.mall.setFilter('Versace')}
+      />Dolce & Gabbana
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="Boss" id="Boss" value="Hugo Boss" />Hugo Boss
+      <input
+        type="checkbox"
+        name="Boss"
+        id="Boss"
+        value="Hugo Boss"
+        onClick={() => this.props.mall.setFilter('Hugo Boss')}
+      />Hugo Boss
     </div>
     <div className="input-holder">
-      <input type="checkbox" name="Prada" id="Prada" value="Prada" />Prada
+      <input type="checkbox" name="Prada" id="Prada" value="Prada" onClick={() => this.props.mall.setFilter('Prada')} />Prada
     </div>
   </div>
 );
