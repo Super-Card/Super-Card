@@ -79,7 +79,8 @@ class Malls {
 }
 
 const mallPropType = PropTypes.shape({
-  resetFilters: PropTypes.arrayOf(PropTypes.string),
+  resetFilters: PropTypes.func,
+  setFilter: PropTypes.func,
   resultItems: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number,
@@ -100,7 +101,8 @@ const mallPropType = PropTypes.shape({
       id: PropTypes.number,
       mallImage: PropTypes.string,
       mallName: PropTypes.string,
-      discount: PropTypes.string
+      discount: PropTypes.string,
+      setFilter: PropTypes.func
     })
   )
 });

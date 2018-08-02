@@ -4,12 +4,11 @@ class Auto {
   @observable
   auto = [
     {
-        name:"Shop1"
-      },
-      {
-        name:
-        "Shop2"
-      },
+      name: 'Shop1'
+    },
+    {
+      name: 'Shop2'
+    }
   ];
 
   @action
