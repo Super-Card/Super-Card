@@ -16,7 +16,7 @@ export default class Categories extends React.Component {
             name="face"
             id="face"
             value="face"
-            onClick={event => this.props.beauty.setFilter('face', event)}
+            onClick={event => this.props.beauty.setFilter('face', event.target.checked)}
           />Face
         </label>
         <label htmlFor="hair">
@@ -25,7 +25,7 @@ export default class Categories extends React.Component {
             name="hair"
             id="hair"
             value="hair"
-            onClick={event => this.props.beauty.setFilter('hair', event)}
+            onClick={event => this.props.beauty.setFilter('hair', event.target.checked)}
           />Hair
         </label>
         <label htmlFor="body">
@@ -34,7 +34,7 @@ export default class Categories extends React.Component {
             name="body"
             id="body"
             value="body"
-            onClick={event => this.props.beauty.setFilter('body', event)}
+            onClick={event => this.props.beauty.setFilter('body', event.target.checked)}
           />Body
         </label>
       </div>

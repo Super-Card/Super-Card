@@ -16,7 +16,7 @@ export default class Gender extends React.Component {
             name="male"
             id="male"
             value="male"
-            onClick={event => this.props.beauty.setFilter('male', event)}
+            onClick={event => this.props.beauty.setFilter('male', event.target.checked)}
           />Male
         </label>
         <label htmlFor="female">
@@ -25,7 +25,7 @@ export default class Gender extends React.Component {
             name="female"
             id="female"
             value="female"
-            onClick={event => this.props.beauty.setFilter('female', event)}
+            onClick={event => this.props.beauty.setFilter('female', event.target.checked)}
           />Female
         </label>
       </div>

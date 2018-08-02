@@ -641,8 +641,8 @@ class Beauty {
   }
 
   @action
-  setFilter(filter, event) {
-    if (event.target.checked) {
+  setFilter(filter, isChecked) {
+    if (isChecked) {
       this.filters.push(filter);
     } else {
       this.filters.remove(filter);
