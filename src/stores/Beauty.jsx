@@ -3,8 +3,6 @@ import { intersection } from 'lodash';
 import PropTypes from 'prop-types';
 
 class Beauty {
-  static refBody = 'body';
-
   @computed
   get getResultItems() {
     if (this.filters.length) {
