@@ -16,7 +16,7 @@ export default class Partners extends React.Component {
             name="beautyzone"
             id="beautyzone"
             value="beautyzone"
-            onClick={() => this.props.beauty.setFilter('beautyzone')}
+            onClick={event => this.props.beauty.setFilter('beautyzone', event.target.checked)}
           />Beauty Zone
         </label>
         <label htmlFor="sephora">
@@ -25,7 +25,7 @@ export default class Partners extends React.Component {
             name="sephora"
             id="sephora"
             value="sephora"
-            onClick={() => this.props.beauty.setFilter('sephora')}
+            onClick={event => this.props.beauty.setFilter('sephora', event.target.checked)}
           />Sephora
         </label>
         <label htmlFor="douglas">
@@ -34,11 +34,17 @@ export default class Partners extends React.Component {
             name="douglas"
             id="douglas"
             value="douglas"
-            onClick={() => this.props.beauty.setFilter('douglas')}
+            onClick={event => this.props.beauty.setFilter('douglas', event.target.checked)}
           />Douglas
         </label>
         <label htmlFor="dm">
-          <input type="checkbox" name="dm" id="dm" value="dm" onClick={() => this.props.beauty.setFilter('dm')} />DM
+          <input
+            type="checkbox"
+            name="dm"
+            id="dm"
+            value="dm"
+            onClick={event => this.props.beauty.setFilter('dm', event.target.checked)}
+          />DM
         </label>
         <label htmlFor="lillydrogerie">
           <input
@@ -46,7 +52,7 @@ export default class Partners extends React.Component {
             name="lillydrogerie"
             id="lillydrogerie"
             value="lillydrogerie"
-            onClick={() => this.props.beauty.setFilter('lillydrogerie')}
+            onClick={event => this.props.beauty.setFilter('lillydrogerie', event.target.checked)}
           />Lilly Drogerie
         </label>
       </div>
