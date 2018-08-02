@@ -687,7 +687,6 @@ const beautyPropTypeDefaults = {
   getResultItems: [],
   setSelectedItem: () => true,
   filters: [],
-  filterIsChecked: () => true,
   setFilter: () => true
 };
 
