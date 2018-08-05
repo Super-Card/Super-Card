@@ -16,7 +16,7 @@ export default class Discounts extends React.Component {
             name="10%"
             id="10%"
             value="10%"
-            onClick={event => this.props.beauty.setFilter('10%', event.target.checked)}
+            onClick={event => this.props.beauty.setFilter('discounts', '10%', event.target.checked)}
           />10%
         </label>
         <label htmlFor="15%">
@@ -25,7 +25,7 @@ export default class Discounts extends React.Component {
             name="15%"
             id="15%"
             value="15%"
-            onClick={event => this.props.beauty.setFilter('15%', event.target.checked)}
+            onClick={event => this.props.beauty.setFilter('discounts', '15%', event.target.checked)}
           />15%
         </label>
         <label htmlFor="20%">
@@ -34,7 +34,7 @@ export default class Discounts extends React.Component {
             name="20%"
             id="20%"
             value="20%"
-            onClick={event => this.props.beauty.setFilter('20%', event.target.checked)}
+            onClick={event => this.props.beauty.setFilter('discounts', '20%', event.target.checked)}
           />20%
         </label>
         <label htmlFor="25%">
@@ -43,7 +43,7 @@ export default class Discounts extends React.Component {
             name="25%"
             id="25%"
             value="25%"
-            onClick={event => this.props.beauty.setFilter('25%', event.target.checked)}
+            onClick={event => this.props.beauty.setFilter('discounts', '25%', event.target.checked)}
           />25%
         </label>
         <label htmlFor="30%">
@@ -52,7 +52,7 @@ export default class Discounts extends React.Component {
             name="30%"
             id="30%"
             value="30%"
-            onClick={event => this.props.beauty.setFilter('30%', event.target.checked)}
+            onClick={event => this.props.beauty.setFilter('discounts', '30%', event.target.checked)}
           />30%
         </label>
       </div>

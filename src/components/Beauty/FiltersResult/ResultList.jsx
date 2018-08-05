@@ -10,8 +10,28 @@ class ResultList extends React.Component {
     return (
       <div>
         <div className="tags">
-          {this.props.beauty.filters.length > 0 ? 'Tags: ' : ''}
-          {this.props.beauty.filters.map(tag => (
+          {this.props.beauty.filters.discounts.length > 0 ||
+          this.props.beauty.filters.partners.length > 0 ||
+          this.props.beauty.filters.gender.length > 0 ||
+          this.props.beauty.filters.categories.length > 0
+            ? 'Tags: '
+            : ''}
+          {this.props.beauty.filters.discounts.map(tag => (
+            <span key={tag} className="tag">
+              {tag}
+            </span>
+          ))}
+          {this.props.beauty.filters.partners.map(tag => (
+            <span key={tag} className="tag">
+              {tag}
+            </span>
+          ))}
+          {this.props.beauty.filters.gender.map(tag => (
+            <span key={tag} className="tag">
+              {tag}
+            </span>
+          ))}
+          {this.props.beauty.filters.categories.map(tag => (
             <span key={tag} className="tag">
               {tag}
             </span>

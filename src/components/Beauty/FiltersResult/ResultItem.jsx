@@ -21,7 +21,7 @@ class Result extends React.Component {
       <div className="result-list-item" onClick={() => this.handleItemSelect(this.props.resultItem)}>
         <div className="brand-name">{this.props.resultItem.brandName}</div>
         <img className="brand-img" src={this.props.resultItem.brandImage} alt="" />
-        <img className="discount-percent" src={this.props.resultItem.discount} alt="" />
+        <img className="discount-percent" src={this.props.resultItem.discountImage} alt="" />
         <img className="logo-partner" src={this.props.resultItem.logoPartner} alt="" />
       </div>
     );
@@ -33,8 +33,12 @@ Result.propTypes = {
     id: PropTypes.number,
     brandName: PropTypes.string,
     brandImage: PropTypes.string,
+    discountImage: PropTypes.string,
+    logoPartner: PropTypes.string,
     discount: PropTypes.string,
-    logoPartner: PropTypes.string
+    partner: PropTypes.string,
+    gender: PropTypes.arrayOf(PropTypes.string),
+    categories: PropTypes.arrayOf(PropTypes.string)
   }).isRequired
 };
 
