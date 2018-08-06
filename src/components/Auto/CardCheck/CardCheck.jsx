@@ -1,34 +1,43 @@
 import React, { Component } from 'react';
-import { inject, observer } from 'mobx-react';
-import PropTypes from 'prop-types';
 import './cardCheck.css';
 
-@inject('auto')
-@observer
 class CardCheck extends Component {
-  render() {
-    const { auto } = this.props;
+  constructor(props) {
+    super(props);
+    this.state = { showMessage: false };
+  }
 
+  _showMessage = () =>
+    this.setState(prevState => ({
+      showMessage: !prevState.showMessage
+    }));
+  render() {
     return (
       <div>
         <div className="newsletter-container">
           <h1>Enter the ID of your card:</h1>
           <div className="center">
-            <input type="number" />
-            <input type="submit" value="Check" />
+            <input type="number" required />
+            <input type="submit" value="Check" onClick={this._showMessage} />
           </div>
-          <div className="results">{auto.carCount}</div>
+          <div />
+          {this.state.showMessage && (
+            <div className="results">
+              <h2 className="green-heading">Your card is valid in the following places:</h2>
+              <p>Magic Auto Spa</p>
+              <p>Ivans auto shop</p>
+              <p>AutoHouse Sofia</p>
+              <p>Bankya Auto Palace</p>
+              <button className="close" onClick={this._showMessage}>
+                Close
+              </button>
+            </div>
+          )}
         </div>
         <h1>Offers:</h1>
       </div>
     );
   }
 }
-
-CardCheck.propTypes = {
-  auto: PropTypes.shape({
-    carCount: PropTypes.string
-  })
-};
 
 export default CardCheck;

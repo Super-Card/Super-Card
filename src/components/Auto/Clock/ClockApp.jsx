@@ -6,7 +6,7 @@ class ClockApp extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      deadline: 'August 05, 2018'
+      deadline: 'August 29, 2018'
     };
   }
 

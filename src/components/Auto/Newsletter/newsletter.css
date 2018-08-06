@@ -55,3 +55,16 @@
       background-color: blue;
       color: white;
   }
+
+  .input {
+    width: 250px;
+    border-radius:10px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  .form {
+    text-align: center;
+    margin-top: 35px;
+    margin: 5px;
+  }

@@ -1,7 +1,7 @@
 .newsletter-container {
     border: solid 1px;
-    height: 250px;
-    width: 600px;
+    height: 350px;
+    width: 750px;
     margin: 0 auto;
     margin-top:100px;
 }
@@ -17,9 +17,19 @@ h1 {
     flex-direction: row;
 }
 
+.green-heading {
+  color: green
+}
+
+.close {
+    height: 30px;
+    width: 160px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
 
 .results {
-    margin-top: 50px;
-    color: red;
-   text-align: center;
+    margin: 0 auto;
+    width: 500px;
 }
