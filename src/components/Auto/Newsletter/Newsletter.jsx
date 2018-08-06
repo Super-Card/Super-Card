@@ -28,10 +28,10 @@ class Newsletter extends React.Component {
 
         <div className={containerClass}>
           <div className="modal-header" />
-          <h1> Want more offers? Sign! </h1>
+          <h1> Want more offers? Sign Up! </h1>
           <div className="modal-body">
-            <form action="#">
-              <input type="email" />
+            <form action="#" className="form">
+              <input type="email" className="input" />
               <input className="newsletter-submit" type="submit" value="Submit" />
             </form>
           </div>
