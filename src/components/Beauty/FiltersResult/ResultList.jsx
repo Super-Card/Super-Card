@@ -37,6 +37,7 @@ class ResultList extends React.Component {
             </span>
           ))}
         </div>
+        <div className="no-matches">{this.props.beauty.getResultItems.length === 0 ? 'No matches found!' : ''}</div>
         <div>
           {this.props.beauty.getResultItems.map(resultItem => <Result key={resultItem.id} resultItem={resultItem} />)}
         </div>
