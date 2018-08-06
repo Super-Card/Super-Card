@@ -12,9 +12,9 @@ export default class HumanBody extends React.Component {
     this.human = { hair: false, body: false, face: false };
   }
 
-  select(filter) {
+  select(type, filter) {
     this.human[filter] = !this.human[filter];
-    this.props.beauty.setFilter(filter, this.human[filter]);
+    this.props.beauty.setFilter(type, filter, this.human[filter]);
   }
 
   render() {
@@ -33,7 +33,7 @@ export default class HumanBody extends React.Component {
         36,443,34,435,37,428,43,423,51,420,56,418,63,412,66,414,70,417,70,420,81,413,84,418,90,420,94,419,100,423,
         105,421,111,428,112,435,101,431,92,425,88,429,84,430,78,437,68,439,60,445,55,453,55,459,56,465,60,466,68,
         468,75,470,74,470,83,470,88,467,89"
-            onClick={() => this.select('hair')}
+            onClick={() => this.select('categories', 'hair')}
           />
           <area
             id="area-face"
@@ -43,7 +43,7 @@ export default class HumanBody extends React.Component {
             className="human-body-img-categories"
             coords="431,91,433,97,437,101,443,105,450,106,460,103,465,94,467,90,469,85,470,76,467,75,466,64,461,58,
         455,56,449,56,442,58,438,67,434,74,431,78,428,84,427,88"
-            onClick={() => this.select('face')}
+            onClick={() => this.select('categories', 'face')}
           />
           <area
             id="area-body"
@@ -57,7 +57,7 @@ export default class HumanBody extends React.Component {
         466,325,482,398,484,415,499,471,503,495,506,516,510,527,526,526,528,522,518,491,514,433,504,380,504,329,
         505,306,498,257,486,215,487,188,491,205,498,244,510,282,509,299,511,305,511,317,506,322,507,333,512,331,
         514,335,520,311,517,267,512,222,506,182,502,142,497,130,488,125,463,117,462,102,450,106"
-            onClick={() => this.select('body')}
+            onClick={() => this.select('categories', 'body')}
           />
         </map>
       </div>
