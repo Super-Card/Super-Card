@@ -76,599 +76,337 @@ class Beauty {
       partner: 'beautyzone',
       gender: ['male'],
       categories: ['hair', 'face', 'body']
+    },
+    {
+      id: 4,
+      brandImage: '../../assets/beauty/ahava.png',
+      brandName: 'AHAVA',
+      discountImage: '../../assets/beauty/percent_20.png',
+      logoPartner: '../../assets/beauty/logo-beauty-zone.png',
+      discount: '20%',
+      partner: 'beautyzone',
+      gender: ['male', 'female'],
+      categories: ['hair', 'face', 'body']
+    },
+    {
+      id: 5,
+      brandImage: '../../assets/beauty/nioxin.png',
+      brandName: 'NIOXIN',
+      discountImage: '../../assets/beauty/percent_30.png',
+      logoPartner: '../../assets/beauty/logo-beauty-zone.png',
+      discount: '30%',
+      partner: 'beautyzone',
+      gender: ['male', 'female'],
+      categories: ['hair']
+    },
+    {
+      id: 6,
+      brandImage: '../../assets/beauty/kenra.png',
+      brandName: 'Kenra',
+      discountImage: '../../assets/beauty/percent_15.png',
+      logoPartner: '../../assets/beauty/logo-beauty-zone.png',
+      discount: '15%',
+      partner: 'beautyzone',
+      gender: ['male', 'female'],
+      categories: ['hair']
+    },
+    {
+      id: 7,
+      brandImage: '../../assets/beauty/tigi.png',
+      brandName: 'TIGI',
+      discountImage: '../../assets/beauty/percent_15.png',
+      logoPartner: '../../assets/beauty/logo-sephora.png',
+      discount: '15%',
+      partner: 'sephora',
+      gender: ['male'],
+      categories: ['hair']
+    },
+    {
+      id: 8,
+      brandImage: '../../assets/beauty/american-crew.png',
+      brandName: 'American Crew',
+      discountImage: '../../assets/beauty/percent_30.png',
+      logoPartner: '../../assets/beauty/logo-sephora.png',
+      discount: '30%',
+      partner: 'sephora',
+      gender: ['male'],
+      categories: ['hair']
+    },
+    {
+      id: 9,
+      brandImage: '../../assets/beauty/sebastian.png',
+      brandName: 'Sebastian',
+      discountImage: '../../assets/beauty/percent_15.png',
+      logoPartner: '../../assets/beauty/logo-sephora.png',
+      discount: '15%',
+      partner: 'sephora',
+      gender: ['male', 'female'],
+      categories: ['hair']
+    },
+    {
+      id: 10,
+      brandImage: '../../assets/beauty/pureology.png',
+      brandName: 'Pureology',
+      discountImage: '../../assets/beauty/percent_30.png',
+      logoPartner: '../../assets/beauty/logo-sephora.png',
+      discount: '30%',
+      partner: 'sephora',
+      gender: ['male', 'female'],
+      categories: ['hair']
+    },
+    {
+      id: 11,
+      brandImage: '../../assets/beauty/murad.png',
+      brandName: 'Murad',
+      discountImage: '../../assets/beauty/percent_25.png',
+      logoPartner: '../../assets/beauty/logo-sephora.png',
+      discount: '25%',
+      partner: 'sephora',
+      gender: ['female'],
+      categories: ['face']
+    },
+    {
+      id: 12,
+      brandImage: '../../assets/beauty/philosophy.png',
+      brandName: 'Philosophy',
+      discountImage: '../../assets/beauty/percent_20.png',
+      logoPartner: '../../assets/beauty/logo-sephora.png',
+      discount: '20%',
+      partner: 'sephora',
+      gender: ['female'],
+      categories: ['face', 'body']
+    },
+    {
+      id: 13,
+      brandImage: '../../assets/beauty/st-tropez.png',
+      brandName: 'St. Tropez',
+      discountImage: '../../assets/beauty/percent_20.png',
+      logoPartner: '../../assets/beauty/logo-sephora.png',
+      discount: '20%',
+      partner: 'sephora',
+      gender: ['female'],
+      categories: ['body']
+    },
+    {
+      id: 14,
+      brandImage: '../../assets/beauty/vita-liberata.png',
+      brandName: 'Vita Liberata',
+      discountImage: '../../assets/beauty/percent_25.png',
+      logoPartner: '../../assets/beauty/logo-sephora.png',
+      discount: '25%',
+      partner: 'sephora',
+      gender: ['female'],
+      categories: ['body']
+    },
+    {
+      id: 15,
+      brandImage: '../../assets/beauty/sebastian.png',
+      brandName: 'Sebastian',
+      discountImage: '../../assets/beauty/percent_25.png',
+      logoPartner: '../../assets/beauty/logo-douglas.png',
+      discount: '25%',
+      partner: 'douglas',
+      gender: ['male', 'female'],
+      categories: ['hair']
+    },
+    {
+      id: 16,
+      brandImage: '../../assets/beauty/pureology.png',
+      brandName: 'Pureology',
+      discountImage: '../../assets/beauty/percent_10.png',
+      logoPartner: '../../assets/beauty/logo-douglas.png',
+      discount: '10%',
+      partner: 'douglas',
+      gender: ['male', 'female'],
+      categories: ['hair']
+    },
+    {
+      id: 17,
+      brandImage: '../../assets/beauty/galenic.png',
+      brandName: 'Galenic',
+      discountImage: '../../assets/beauty/percent_25.png',
+      logoPartner: '../../assets/beauty/logo-douglas.png',
+      discount: '25%',
+      partner: 'douglas',
+      gender: ['female'],
+      categories: ['face']
+    },
+    {
+      id: 18,
+      brandImage: '../../assets/beauty/dermablend.png',
+      brandName: 'Dermablend',
+      discountImage: '../../assets/beauty/percent_25.png',
+      logoPartner: '../../assets/beauty/logo-douglas.png',
+      discount: '25%',
+      partner: 'douglas',
+      gender: ['female'],
+      categories: ['face']
+    },
+    {
+      id: 19,
+      brandImage: '../../assets/beauty/st-tropez.png',
+      brandName: 'St. Tropez',
+      discountImage: '../../assets/beauty/percent_10.png',
+      logoPartner: '../../assets/beauty/logo-douglas.png',
+      discount: '10%',
+      partner: 'douglas',
+      gender: ['female'],
+      categories: ['body']
+    },
+    {
+      id: 20,
+      brandImage: '../../assets/beauty/hempz.png',
+      brandName: 'Hempz',
+      discountImage: '../../assets/beauty/percent_25.png',
+      logoPartner: '../../assets/beauty/logo-douglas.png',
+      discount: '25%',
+      partner: 'douglas',
+      gender: ['female'],
+      categories: ['body', 'hair']
+    },
+    {
+      id: 21,
+      brandImage: '../../assets/beauty/moroccanoil.png',
+      brandName: 'Moroccanoil',
+      discountImage: '../../assets/beauty/percent_10.png',
+      logoPartner: '../../assets/beauty/logo-douglas.png',
+      discount: '10%',
+      partner: 'douglas',
+      gender: ['female'],
+      categories: ['body', 'hair']
+    },
+    {
+      id: 22,
+      brandImage: '../../assets/beauty/tigi.png',
+      brandName: 'TIGI',
+      discountImage: '../../assets/beauty/percent_25.png',
+      logoPartner: '../../assets/beauty/logo-dm.png',
+      discount: '25%',
+      partner: 'dm',
+      gender: ['male'],
+      categories: ['hair']
+    },
+    {
+      id: 23,
+      brandImage: '../../assets/beauty/american-crew.png',
+      brandName: 'American Crew',
+      discountImage: '../../assets/beauty/percent_20.png',
+      logoPartner: '../../assets/beauty/logo-dm.png',
+      discount: '20%',
+      partner: 'dm',
+      gender: ['male'],
+      categories: ['hair']
+    },
+    {
+      id: 24,
+      brandImage: '../../assets/beauty/sebastian.png',
+      brandName: 'Sebastian',
+      discountImage: '../../assets/beauty/percent_20.png',
+      logoPartner: '../../assets/beauty/logo-dm.png',
+      discount: '20%',
+      partner: 'dm',
+      gender: ['male', 'female'],
+      categories: ['hair']
+    },
+    {
+      id: 25,
+      brandImage: '../../assets/beauty/dermablend.png',
+      brandName: 'Dermablend',
+      discountImage: '../../assets/beauty/percent_10.png',
+      logoPartner: '../../assets/beauty/logo-dm.png',
+      discount: '10%',
+      partner: 'dm',
+      gender: ['female'],
+      categories: ['face']
+    },
+    {
+      id: 26,
+      brandImage: '../../assets/beauty/elizabeth-arden.png',
+      brandName: 'Elizabeth Arden',
+      discountImage: '../../assets/beauty/percent_10.png',
+      logoPartner: '../../assets/beauty/logo-dm.png',
+      discount: '10%',
+      partner: 'dm',
+      gender: ['female'],
+      categories: ['face', 'body']
+    },
+    {
+      id: 27,
+      brandImage: '../../assets/beauty/philosophy.png',
+      brandName: 'Philosophy',
+      discountImage: '../../assets/beauty/percent_15.png',
+      logoPartner: '../../assets/beauty/logo-dm.png',
+      discount: '15%',
+      partner: 'dm',
+      gender: ['female'],
+      categories: ['face', 'body']
+    },
+    {
+      id: 28,
+      brandImage: '../../assets/beauty/galenic.png',
+      brandName: 'Galenic',
+      discountImage: '../../assets/beauty/percent_15.png',
+      logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
+      discount: '15%',
+      partner: 'lillydrogerie',
+      gender: ['female'],
+      categories: ['face']
+    },
+    {
+      id: 29,
+      brandImage: '../../assets/beauty/murad.png',
+      brandName: 'Murad',
+      discountImage: '../../assets/beauty/percent_15.png',
+      logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
+      discount: '15%',
+      partner: 'lillydrogerie',
+      gender: ['female'],
+      categories: ['face']
+    },
+    {
+      id: 30,
+      brandImage: '../../assets/beauty/elizabeth-arden.png',
+      brandName: 'Elizabeth Arden',
+      discountImage: '../../assets/beauty/percent_20.png',
+      logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
+      discount: '20%',
+      partner: 'lillydrogerie',
+      gender: ['female'],
+      categories: ['face', 'body']
+    },
+    {
+      id: 31,
+      brandImage: '../../assets/beauty/philosophy.png',
+      brandName: 'Philosophy',
+      discountImage: '../../assets/beauty/percent_10.png',
+      logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
+      discount: '10%',
+      partner: 'lillydrogerie',
+      gender: ['female'],
+      categories: ['face', 'body']
+    },
+    {
+      id: 32,
+      brandImage: '../../assets/beauty/st-tropez.png',
+      brandName: 'St. Tropez',
+      discountImage: '../../assets/beauty/percent_10.png',
+      logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
+      discount: '10%',
+      partner: 'lillydrogerie',
+      gender: ['female'],
+      categories: ['body']
+    },
+    {
+      id: 33,
+      brandImage: '../../assets/beauty/moroccanoil.png',
+      brandName: 'Moroccanoil',
+      discountImage: '../../assets/beauty/percent_10.png',
+      logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
+      discount: '10%',
+      partner: 'lillydrogerie',
+      gender: ['female'],
+      categories: ['body', 'hair']
     }
-    // {
-    //   id: 4,
-    //   brandImage: '../../assets/beauty/ahava.png',
-    //   brandName: 'AHAVA',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['20%', 'beautyzone', 'male', 'female', 'hair', 'face', 'body']
-    // },
-    // {
-    //   id: 5,
-    //   brandImage: '../../assets/beauty/nioxin.png',
-    //   brandName: 'NIOXIN',
-    //   discountImage: '../../assets/beauty/percent_30.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['30%', 'beautyzone', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 6,
-    //   brandImage: '../../assets/beauty/kenra.png',
-    //   brandName: 'Kenra',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['10%', 'beautyzone', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 7,
-    //   brandImage: '../../assets/beauty/tigi.png',
-    //   brandName: 'TIGI',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['25%', 'beautyzone', 'male', 'hair']
-    // },
-    // {
-    //   id: 8,
-    //   brandImage: '../../assets/beauty/american-crew.png',
-    //   brandName: 'American Crew',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['20%', 'beautyzone', 'male', 'hair']
-    // },
-    // {
-    //   id: 9,
-    //   brandImage: '../../assets/beauty/sebastian.png',
-    //   brandName: 'Sebastian',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['10%', 'beautyzone', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 10,
-    //   brandImage: '../../assets/beauty/pureology.png',
-    //   brandName: 'Pureology',
-    //   discountImage: '../../assets/beauty/percent_30.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['30%', 'beautyzone', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 11,
-    //   brandImage: '../../assets/beauty/galenic.png',
-    //   brandName: 'Galenic',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['10%', 'beautyzone', 'female', 'face']
-    // },
-    // {
-    //   id: 12,
-    //   brandImage: '../../assets/beauty/dermablend.png',
-    //   brandName: 'Dermablend',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['15%', 'beautyzone', 'female', 'face']
-    // },
-    // {
-    //   id: 13,
-    //   brandImage: '../../assets/beauty/murad.png',
-    //   brandName: 'Murad',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['25%', 'beautyzone', 'female', 'face']
-    // },
-    // {
-    //   id: 14,
-    //   brandImage: '../../assets/beauty/elizabeth-arden.png',
-    //   brandName: 'Elizabeth Arden',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['20%', 'beautyzone', 'female', 'face', 'body']
-    // },
-    // {
-    //   id: 15,
-    //   brandImage: '../../assets/beauty/philosophy.png',
-    //   brandName: 'Philosophy',
-    //   discountImage: '../../assets/beauty/percent_30.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['30%', 'beautyzone', 'female', 'face', 'body']
-    // },
-    // {
-    //   id: 16,
-    //   brandImage: '../../assets/beauty/st-tropez.png',
-    //   brandName: 'St. Tropez',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['15%', 'beautyzone', 'female', 'body']
-    // },
-    // {
-    //   id: 17,
-    //   brandImage: '../../assets/beauty/vita-liberata.png',
-    //   brandName: 'Vita Liberata',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['15%', 'beautyzone', 'female', 'body']
-    // },
-    // {
-    //   id: 18,
-    //   brandImage: '../../assets/beauty/hempz.png',
-    //   brandName: 'Hempz',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['25%', 'beautyzone', 'female', 'body', 'hair']
-    // },
-    // {
-    //   id: 19,
-    //   brandImage: '../../assets/beauty/moroccanoil.png',
-    //   brandName: 'Moroccanoil',
-    //   discountImage: '../../assets/beauty/percent_30.png',
-    //   logoPartner: '../../assets/beauty/logo-beauty-zone.png',
-    //   tags: ['30%', 'beautyzone', 'female', 'body', 'hair']
-    // },
-    // {
-    //   id: 20,
-    //   brandImage: '../../assets/beauty/dr-jacksons.png',
-    //   brandName: 'Dr Jacksons',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['10%', 'sephora', 'male', 'female', 'face']
-    // },
-    // {
-    //   id: 21,
-    //   brandImage: '../../assets/beauty/clarins.png',
-    //   brandName: 'Clarins',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['25%', 'sephora', 'male', 'female', 'face']
-    // },
-    // {
-    //   id: 22,
-    //   brandImage: '../../assets/beauty/1821-man-made.png',
-    //   brandName: '18.21 Man Made',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['10%', 'sephora', 'male', 'hair', 'face', 'body']
-    // },
-    // {
-    //   id: 23,
-    //   brandImage: '../../assets/beauty/ahava.png',
-    //   brandName: 'AHAVA',
-    //   discountImage: '../../assets/beauty/percent_30.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['30%', 'sephora', 'male', 'female', 'hair', 'face', 'body']
-    // },
-    // {
-    //   id: 24,
-    //   brandImage: '../../assets/beauty/nioxin.png',
-    //   brandName: 'NIOXIN',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['15%', 'sephora', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 25,
-    //   brandImage: '../../assets/beauty/kenra.png',
-    //   brandName: 'Kenra',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['25%', 'sephora', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 26,
-    //   brandImage: '../../assets/beauty/tigi.png',
-    //   brandName: 'TIGI',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['15%', 'sephora', 'male', 'hair']
-    // },
-    // {
-    //   id: 27,
-    //   brandImage: '../../assets/beauty/american-crew.png',
-    //   brandName: 'American Crew',
-    //   discountImage: '../../assets/beauty/percent_30.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['30%', 'sephora', 'male', 'hair']
-    // },
-    // {
-    //   id: 28,
-    //   brandImage: '../../assets/beauty/sebastian.png',
-    //   brandName: 'Sebastian',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['15%', 'sephora', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 29,
-    //   brandImage: '../../assets/beauty/pureology.png',
-    //   brandName: 'Pureology',
-    //   discountImage: '../../assets/beauty/percent_30.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['30%', 'sephora', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 30,
-    //   brandImage: '../../assets/beauty/galenic.png',
-    //   brandName: 'Galenic',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['15%', 'sephora', 'female', 'face']
-    // },
-    // {
-    //   id: 31,
-    //   brandImage: '../../assets/beauty/dermablend.png',
-    //   brandName: 'Dermablend',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['25%', 'sephora', 'female', 'face']
-    // },
-    // {
-    //   id: 32,
-    //   brandImage: '../../assets/beauty/murad.png',
-    //   brandName: 'Murad',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['25%', 'sephora', 'female', 'face']
-    // },
-    // {
-    //   id: 33,
-    //   brandImage: '../../assets/beauty/elizabeth-arden.png',
-    //   brandName: 'Elizabeth Arden',
-    //   discountImage: '../../assets/beauty/percent_30.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['30%', 'sephora', 'female', 'face', 'body']
-    // },
-    // {
-    //   id: 34,
-    //   brandImage: '../../assets/beauty/philosophy.png',
-    //   brandName: 'Philosophy',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['20%', 'sephora', 'female', 'face', 'body']
-    // },
-    // {
-    //   id: 35,
-    //   brandImage: '../../assets/beauty/st-tropez.png',
-    //   brandName: 'St. Tropez',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['20%', 'sephora', 'female', 'body']
-    // },
-    // {
-    //   id: 36,
-    //   brandImage: '../../assets/beauty/vita-liberata.png',
-    //   brandName: 'Vita Liberata',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['25%', 'sephora', 'female', 'body']
-    // },
-    // {
-    //   id: 37,
-    //   brandImage: '../../assets/beauty/hempz.png',
-    //   brandName: 'Hempz',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['15%', 'sephora', 'female', 'body', 'hair']
-    // },
-    // {
-    //   id: 38,
-    //   brandImage: '../../assets/beauty/moroccanoil.png',
-    //   brandName: 'Moroccanoil',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-sephora.png',
-    //   tags: ['20%', 'sephora', 'female', 'body', 'hair']
-    // },
-    // {
-    //   id: 39,
-    //   brandImage: '../../assets/beauty/dr-jacksons.png',
-    //   brandName: 'Dr Jacksons',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['15%', 'douglas', 'male', 'female', 'face']
-    // },
-    // {
-    //   id: 40,
-    //   brandImage: '../../assets/beauty/clarins.png',
-    //   brandName: 'Clarins',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['15%', 'douglas', 'male', 'female', 'face']
-    // },
-    // {
-    //   id: 41,
-    //   brandImage: '../../assets/beauty/1821-man-made.png',
-    //   brandName: '18.21 Man Made',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['25%', 'douglas', 'male', 'hair', 'face', 'body']
-    // },
-    // {
-    //   id: 42,
-    //   brandImage: '../../assets/beauty/ahava.png',
-    //   brandName: 'AHAVA',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['15%', 'douglas', 'male', 'female', 'hair', 'face', 'body']
-    // },
-    // {
-    //   id: 43,
-    //   brandImage: '../../assets/beauty/nioxin.png',
-    //   brandName: 'NIOXIN',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['15%', 'douglas', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 44,
-    //   brandImage: '../../assets/beauty/kenra.png',
-    //   brandName: 'Kenra',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['25%', 'douglas', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 45,
-    //   brandImage: '../../assets/beauty/tigi.png',
-    //   brandName: 'TIGI',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['15%', 'douglas', 'male', 'hair']
-    // },
-    // {
-    //   id: 46,
-    //   brandImage: '../../assets/beauty/sebastian.png',
-    //   brandName: 'Sebastian',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['25%', 'douglas', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 47,
-    //   brandImage: '../../assets/beauty/pureology.png',
-    //   brandName: 'Pureology',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['10%', 'douglas', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 48,
-    //   brandImage: '../../assets/beauty/galenic.png',
-    //   brandName: 'Galenic',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['25%', 'douglas', 'female', 'face']
-    // },
-    // {
-    //   id: 49,
-    //   brandImage: '../../assets/beauty/dermablend.png',
-    //   brandName: 'Dermablend',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['25%', 'douglas', 'female', 'face']
-    // },
-    // {
-    //   id: 50,
-    //   brandImage: '../../assets/beauty/murad.png',
-    //   brandName: 'Murad',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['15%', 'douglas', 'female', 'face']
-    // },
-    // {
-    //   id: 51,
-    //   brandImage: '../../assets/beauty/st-tropez.png',
-    //   brandName: 'St. Tropez',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['10%', 'douglas', 'female', 'body']
-    // },
-    // {
-    //   id: 52,
-    //   brandImage: '../../assets/beauty/hempz.png',
-    //   brandName: 'Hempz',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['25%', 'douglas', 'female', 'body', 'hair']
-    // },
-    // {
-    //   id: 53,
-    //   brandImage: '../../assets/beauty/moroccanoil.png',
-    //   brandName: 'Moroccanoil',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-douglas.png',
-    //   tags: ['10%', 'douglas', 'female', 'body', 'hair']
-    // },
-    // {
-    //   id: 54,
-    //   brandImage: '../../assets/beauty/dr-jacksons.png',
-    //   brandName: 'Dr Jacksons',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['20%', 'dm', 'male', 'female', 'face']
-    // },
-    // {
-    //   id: 55,
-    //   brandImage: '../../assets/beauty/clarins.png',
-    //   brandName: 'Clarins',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['15%', 'dm', 'male', 'female', 'face']
-    // },
-    // {
-    //   id: 56,
-    //   brandImage: '../../assets/beauty/ahava.png',
-    //   brandName: 'AHAVA',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['10%', 'dm', 'male', 'female', 'hair', 'face', 'body']
-    // },
-    // {
-    //   id: 57,
-    //   brandImage: '../../assets/beauty/nioxin.png',
-    //   brandName: 'NIOXIN',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['10%', 'dm', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 58,
-    //   brandImage: '../../assets/beauty/tigi.png',
-    //   brandName: 'TIGI',
-    //   discountImage: '../../assets/beauty/percent_25.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['25%', 'dm', 'male', 'hair']
-    // },
-    // {
-    //   id: 59,
-    //   brandImage: '../../assets/beauty/american-crew.png',
-    //   brandName: 'American Crew',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['20%', 'dm', 'male', 'hair']
-    // },
-    // {
-    //   id: 60,
-    //   brandImage: '../../assets/beauty/sebastian.png',
-    //   brandName: 'Sebastian',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['20%', 'dm', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 61,
-    //   brandImage: '../../assets/beauty/pureology.png',
-    //   brandName: 'Pureology',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['15%', 'dm', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 62,
-    //   brandImage: '../../assets/beauty/dermablend.png',
-    //   brandName: 'Dermablend',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['10%', 'dm', 'female', 'face']
-    // },
-    // {
-    //   id: 63,
-    //   brandImage: '../../assets/beauty/murad.png',
-    //   brandName: 'Murad',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['15%', 'dm', 'female', 'face']
-    // },
-    // {
-    //   id: 64,
-    //   brandImage: '../../assets/beauty/elizabeth-arden.png',
-    //   brandName: 'Elizabeth Arden',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['10%', 'dm', 'female', 'face', 'body']
-    // },
-    // {
-    //   id: 65,
-    //   brandImage: '../../assets/beauty/philosophy.png',
-    //   brandName: 'Philosophy',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['15%', 'dm', 'female', 'face', 'body']
-    // },
-    // {
-    //   id: 66,
-    //   brandImage: '../../assets/beauty/st-tropez.png',
-    //   brandName: 'St. Tropez',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-dm.png',
-    //   tags: ['10%', 'dm', 'female', 'body']
-    // },
-    // {
-    //   id: 67,
-    //   brandImage: '../../assets/beauty/1821-man-made.png',
-    //   brandName: '18.21 Man Made',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['10%', 'lillydrogerie', 'male', 'hair', 'face', 'body']
-    // },
-    // {
-    //   id: 68,
-    //   brandImage: '../../assets/beauty/ahava.png',
-    //   brandName: 'AHAVA',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['20%', 'lillydrogerie', 'male', 'female', 'hair', 'face', 'body']
-    // },
-    // {
-    //   id: 69,
-    //   brandImage: '../../assets/beauty/nioxin.png',
-    //   brandName: 'NIOXIN',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['10%', 'lillydrogerie', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 70,
-    //   brandImage: '../../assets/beauty/kenra.png',
-    //   brandName: 'Kenra',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['15%', 'lillydrogerie', 'male', 'female', 'hair']
-    // },
-    // {
-    //   id: 71,
-    //   brandImage: '../../assets/beauty/tigi.png',
-    //   brandName: 'TIGI',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['10%', 'lillydrogerie', 'male', 'hair']
-    // },
-    // {
-    //   id: 72,
-    //   brandImage: '../../assets/beauty/galenic.png',
-    //   brandName: 'Galenic',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['15%', 'lillydrogerie', 'female', 'face']
-    // },
-    // {
-    //   id: 73,
-    //   brandImage: '../../assets/beauty/murad.png',
-    //   brandName: 'Murad',
-    //   discountImage: '../../assets/beauty/percent_15.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['15%', 'lillydrogerie', 'female', 'face']
-    // },
-    // {
-    //   id: 74,
-    //   brandImage: '../../assets/beauty/elizabeth-arden.png',
-    //   brandName: 'Elizabeth Arden',
-    //   discountImage: '../../assets/beauty/percent_20.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['20%', 'lillydrogerie', 'female', 'face', 'body']
-    // },
-    // {
-    //   id: 75,
-    //   brandImage: '../../assets/beauty/philosophy.png',
-    //   brandName: 'Philosophy',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['10%', 'lillydrogerie', 'female', 'face', 'body']
-    // },
-    // {
-    //   id: 76,
-    //   brandImage: '../../assets/beauty/st-tropez.png',
-    //   brandName: 'St. Tropez',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['10%', 'lillydrogerie', 'female', 'body']
-    // },
-    // {
-    //   id: 77,
-    //   brandImage: '../../assets/beauty/moroccanoil.png',
-    //   brandName: 'Moroccanoil',
-    //   discountImage: '../../assets/beauty/percent_10.png',
-    //   logoPartner: '../../assets/beauty/logo-lilly-drogerie.png',
-    //   tags: ['10%', 'lillydrogerie', 'female', 'body', 'hair']
-    // }
   ];
 
   @observable selectedItem = {};
