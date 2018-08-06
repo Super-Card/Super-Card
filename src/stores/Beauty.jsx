@@ -7,36 +7,20 @@ class Beauty {
   get getResultItems() {
     let result = this.resultItems;
 
-    if (this.filters.partners.length > 0) {
+    if (this.filters.partners.length > 0 && result.length > 0) {
       result = result.filter(item => this.filters.partners.some(p => p === item.partner));
-
-      if (result.length === 0) {
-        return [];
-      }
     }
 
-    if (this.filters.discounts.length > 0) {
+    if (this.filters.discounts.length > 0 && result.length > 0) {
       result = result.filter(item => this.filters.discounts.some(p => p === item.discount));
-
-      if (result.length === 0) {
-        return [];
-      }
     }
 
-    if (this.filters.gender.length > 0) {
+    if (this.filters.gender.length > 0 && result.length > 0) {
       result = result.filter(item => intersection(item.gender, this.filters.gender).length > 0);
-
-      if (result.length === 0) {
-        return [];
-      }
     }
 
-    if (this.filters.categories.length > 0) {
+    if (this.filters.categories.length > 0 && result.length > 0) {
       result = result.filter(item => intersection(item.categories, this.filters.categories).length > 0);
-
-      if (result.length === 0) {
-        return [];
-      }
     }
 
     return result;
