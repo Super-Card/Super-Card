@@ -12,6 +12,10 @@ class Newsletter extends React.Component {
     this.modalToggle = this.modalToggle.bind(this);
   }
 
+  componentDidMount() {
+    setTimeout(() => this.setState({ modalOpened: true }), 5000);
+  }
+
   modalToggle() {
     this.setState({ modalOpened: !this.state.modalOpened });
   }
@@ -22,10 +26,6 @@ class Newsletter extends React.Component {
 
     return (
       <div>
-        <button className="btn btn-primary" onClick={this.modalToggle}>
-          Sign up for our Newsletter!
-        </button>
-
         <div className={containerClass}>
           <div className="modal-header" />
           <h1> Want more offers? Sign Up! </h1>
