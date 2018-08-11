@@ -15,10 +15,9 @@ class CardCheck extends Component {
     return (
       <div>
         <div className="newsletter-container">
-          <h1>Enter the ID of your card:</h1>
+          <h1>See where you can use your discount!</h1>
           <div className="center">
-            <input type="number" required />
-            <input type="submit" value="Check" onClick={this._showMessage} />
+            <input type="submit" value="Check" onClick={this._showMessage} className="submit-button" />
           </div>
           <div />
           {this.state.showMessage && (
