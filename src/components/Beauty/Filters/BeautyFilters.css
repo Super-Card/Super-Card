@@ -41,8 +41,11 @@
     cursor: pointer;
 }
 
+.container-body-text{
+    position: relative;
+}
+
 .human-body-img {
-    z-index: 10;
     position: relative;
     margin: auto;
     text-align: center;
@@ -50,6 +53,32 @@
 
 .human-body-img-categories {
     cursor: pointer;
+}
+
+.text-block h4 {
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+    border: solid 1px #092B75;
+    background-color: #1C51C2;
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+    width: 170px;
+    text-align: center;
+}
+
+.text-block {
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    right:200px;
+    color:black;
+    background-color: #FFFFFC;
+    border: solid 1px #FFBF44;
+    border-radius: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 190px;
 }
 
 .tags {
