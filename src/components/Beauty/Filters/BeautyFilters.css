@@ -41,7 +41,7 @@
     cursor: pointer;
 }
 
-.container-body-text{
+.container-body-text {
     position: relative;
 }
 
@@ -79,30 +79,4 @@
     padding-left: 10px;
     padding-right: 10px;
     width: 190px;
-}
-
-.tags {
-    padding-left: 50px;
-    color: #092B75;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.tag {
-    display: inline-block;
-    color: #0d0a03;
-    background-color: #ffbf44;
-    border: 2px solid #ff9d09;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.no-matches {
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    color: red;
-    font-weight: bold;
 }
