@@ -19,21 +19,25 @@ class ResultList extends React.Component {
           {this.props.beauty.filters.discounts.map(tag => (
             <span key={tag} className="tag">
               {tag}
+              <span className="close-icon">&times;</span>
             </span>
           ))}
           {this.props.beauty.filters.partners.map(tag => (
             <span key={tag} className="tag">
               {tag}
+              <span className="close-icon">&times;</span>
             </span>
           ))}
           {this.props.beauty.filters.gender.map(tag => (
             <span key={tag} className="tag">
               {tag}
+              <span className="close-icon">&times;</span>
             </span>
           ))}
           {this.props.beauty.filters.categories.map(tag => (
             <span key={tag} className="tag">
               {tag}
+              <span className="close-icon">&times;</span>
             </span>
           ))}
         </div>

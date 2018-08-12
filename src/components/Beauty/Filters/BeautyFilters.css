@@ -14,7 +14,7 @@
     z-index: 99;
     position: absolute;
     padding-left: 150px;
-    padding-top: 0px;
+    padding-top: 30px;
     overflow: auto;
 }
 
@@ -41,8 +41,11 @@
     cursor: pointer;
 }
 
+.container-body-text {
+    position: relative;
+}
+
 .human-body-img {
-    z-index: 10;
     position: relative;
     margin: auto;
     text-align: center;
@@ -52,21 +55,28 @@
     cursor: pointer;
 }
 
-.tags {
-  padding-left: 50px;
+.text-block h4 {
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+    border: solid 1px #092B75;
+    background-color: #1C51C2;
+    margin: 10px 0px 0px 0px;
+    padding: 5px;
+    width: 170px;
+    text-align: center;
 }
 
-.tag {
-  display: inline-block;
-  color: #0d0a03;
-  background-color: #ffbf44;
-  border: 2px solid #ff9d09;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.no-matches {
-  text-align: center;
+.text-block {
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    right:200px;
+    color:black;
+    background-color: #FFFFFC;
+    border: solid 1px #FFBF44;
+    border-radius: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 190px;
 }
