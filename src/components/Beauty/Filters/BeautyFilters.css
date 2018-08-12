@@ -14,7 +14,7 @@
     z-index: 99;
     position: absolute;
     padding-left: 150px;
-    padding-top: 0px;
+    padding-top: 30px;
     overflow: auto;
 }
 
@@ -82,20 +82,27 @@
 }
 
 .tags {
-  padding-left: 50px;
+    padding-left: 50px;
+    color: #092B75;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .tag {
-  display: inline-block;
-  color: #0d0a03;
-  background-color: #ffbf44;
-  border: 2px solid #ff9d09;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 10px;
-  text-align: center;
+    display: inline-block;
+    color: #0d0a03;
+    background-color: #ffbf44;
+    border: 2px solid #ff9d09;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .no-matches {
-  text-align: center;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
 }
