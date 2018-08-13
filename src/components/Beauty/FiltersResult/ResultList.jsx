@@ -23,25 +23,33 @@ class ResultList extends React.Component {
           {this.props.beauty.filters.discounts.map(tag => (
             <span key={tag} className="tag">
               {tag}
-              <span className="close-icon">&times;</span>
+              <span className="close-icon" onClick={() => this.props.beauty.setFilter('discounts', tag, false)}>
+                &times;
+              </span>
             </span>
           ))}
           {this.props.beauty.filters.partners.map(tag => (
             <span key={tag} className="tag">
               {tag}
-              <span className="close-icon">&times;</span>
+              <span className="close-icon" onClick={() => this.props.beauty.setFilter('partners', tag, false)}>
+                &times;
+              </span>
             </span>
           ))}
           {this.props.beauty.filters.gender.map(tag => (
             <span key={tag} className="tag">
               {tag}
-              <span className="close-icon">&times;</span>
+              <span className="close-icon" onClick={() => this.props.beauty.setFilter('gender', tag, false)}>
+                &times;
+              </span>
             </span>
           ))}
           {this.props.beauty.filters.categories.map(tag => (
             <span key={tag} className="tag">
               {tag}
-              <span className="close-icon">&times;</span>
+              <span className="close-icon" onClick={() => this.props.beauty.setFilter('categories', tag, false)}>
+                &times;
+              </span>
             </span>
           ))}
         </div>
