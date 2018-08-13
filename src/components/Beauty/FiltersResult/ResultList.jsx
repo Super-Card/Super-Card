@@ -6,6 +6,10 @@ import { beautyPropType, beautyPropTypeDefaults } from '../../../stores/Beauty';
 @inject('beauty')
 @observer
 class ResultList extends React.Component {
+  componentDidMount() {
+    this.props.beauty.filters = { discounts: [], partners: [], gender: [], categories: [] };
+  }
+
   render() {
     return (
       <div>
